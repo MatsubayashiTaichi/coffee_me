@@ -1,0 +1,26 @@
+
+  <%= form_tag("/create_3/#{@user.id}") do %>
+
+    <div class="question-3-1">
+      <p>それでは性格診断を始めましょう！</p>
+    </div>
+    <div class="question-3-2">
+      <p>５分ほど時間がかかると思います！</p>
+    </div>
+    <div class="question-3-3">
+      <p>他人に腹を立てることはめったにない</p>
+      <div class="question-3-4">
+        <div class="check">
+          <input type="hidden" name="check" value="3">
+          <input type="image" id="check2" src="/img_01.png"/>
+        </div>
+        <div class="check">
+          <input type="hidden" name="check" value="10">
+          <input type="image" id="check2" src="/img_02.png"/>
+        </div>
+        <div class="check">
+          <input type="hidden" name="check" value="10">
+          <input type="image" id="check2" src="/img_03.png"/>
+        </div>
+      </div>
+  <% end %>

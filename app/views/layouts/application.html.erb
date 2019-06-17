@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CoffeeMe</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <% if content_for?(:body_attributes) %>
+  <%= yield(:body_attributes) %>
+  <% end %>
+    <header>
+     <div class="header-logo">
+       <%= link_to("Coffee me", "/home/top") %>
+     </div>
+     <ul class="header-menus">
+         <li>
+           <div data-turbolinks="false">
+             <%= link_to("診断する", "/question") %>
+           </div>
+         </li>
+     </ul>
+   </header>
+   <div class="container">
+    <%= yield %>
+
+   </div>
+
+  </body>
+</html>

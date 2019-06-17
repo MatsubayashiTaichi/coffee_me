@@ -1,0 +1,11 @@
+
+<%= form_tag("/create_2/#{@user.id}") do %>
+  <div class="question-2-1">
+    <p><%= @user.name %>さん、初めまして！</p>
+  </div>
+  <div class="question-2-2">
+    <p><%= @user.name %>さんは何才ですか？</p>
+    <input type="text" name="age" value="才" class="question-2-3">
+    <input type="submit" value="→" class="question-2-4">
+  </div>
+<% end %>

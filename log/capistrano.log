@@ -1,0 +1,17 @@
+# Logfile created on 2019-06-17 23:20:20 +0900 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-17 23:20:20 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6e388a2b] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [6e388a2b] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [9daa9ce6] Finished in 13.695 seconds with exit status 0 (successful).
+  INFO [8106f82b] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [8106f82b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [74a0c49e] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 100.0%
+  INFO [abe649c4] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh as hoge@118.27.23.224
+ DEBUG [abe649c4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh )
+  INFO [71a0a5f4] Finished in 0.275 seconds with exit status 0 (successful).
+  INFO [99561a11] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as hoge@118.27.23.224
+ DEBUG [99561a11] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )

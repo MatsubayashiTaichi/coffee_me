@@ -1,0 +1,22 @@
+
+  <%= form_tag("/create_4/#{@user.id}") do %>
+    <div class="question-4">
+      <div class="question-4-1">
+        <p>会議など大勢の人がいる場で自主的に発言することは基本的にない</p>
+      </div>
+      <div class="question-4-2">
+        <div class="check">
+          <input type="hidden" name="check" value="1">
+          <input type="image" id="check2" src="/img_01.png"/>
+        </div>
+        <div class="check">
+          <input type="hidden" name="check" value="0">
+          <input type="image" id="check2" src="/img_02.png"/>
+        </div>
+        <div class="check">
+          <input type="hidden" name="check" value="80">
+          <input type="image" id="check2" src="/img_03.png"/>
+        </div>
+      </div>
+    </div>
+  <% end %>

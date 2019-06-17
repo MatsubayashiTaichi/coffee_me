@@ -1,0 +1,21 @@
+{
+  "name": "bower",
+  "description": "",
+  "main": "",
+  "authors": [
+    "taichi"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "angular-radios-to-slider": "^1.0.0"
+  }
+}

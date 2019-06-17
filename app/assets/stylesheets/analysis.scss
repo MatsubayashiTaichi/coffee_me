@@ -1,0 +1,293 @@
+// Place all the styles related to the analysis controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//共通レイアウト======================================================================
+
+
+body {
+  color: #2d3133;
+  background-color: rgba(255, 255, 0, 0.04);
+  margin: 0;
+  min-height: 1vh;
+  font-family: 'arial black';
+  font-weight: bold;
+}
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-weight: normal;
+  font-size   : 100%;
+}
+
+.main {
+  position: absolute;
+  top: 64px;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: #f5f8fa;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  clear: both;
+}
+
+/* ヘッダー ================================ */
+header {
+  height: 64px;
+  position: absolute;
+  top:0%;
+  z-index: 1;
+  width: 100%;
+  background-color:pink;
+
+}
+
+.header-logo {
+  float: left;
+  padding-left: 20px;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+}
+
+.header-logo a{
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+
+}
+
+.header-menus {
+  float: right;
+  padding-right: 20px;
+}
+
+.header-menus li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 15px;
+  list-style: none;
+}
+
+.header-menus a {
+  float: left;
+  font-size: 13px;
+  color: white;
+}
+
+.header-menus .fa {
+  padding-right: 5px;
+}
+
+.header-menus input[type="submit"] {
+  padding: 0 20px;
+  float: left;
+  line-height: 64px;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+
+//question======================================================================
+//question1======================================================================
+.hello-1{
+  margin-top: 150px;
+  display:none;
+  text-align: center;
+}
+.hello-1 p{
+  font-size: 100px;
+}
+
+.hello-2{
+  margin-top: 150px;
+  display:none;
+  text-align: center;
+}
+.hello-2 p{
+  font-size: 35px;
+}
+.hello-3{
+  margin-top: 30px;
+  width: 450px;
+  height: 100px;
+  border-radius: 10px;
+  border-width: 5px;
+  font-size: 40px;
+}
+.hello-4{
+
+}
+
+//question1======================================================================
+//question2======================================================================
+.question-2-1,.question-2-2{
+  margin-top: 150px;
+  display:none;
+  text-align: center;
+}
+.question-2-1 p, .question-2-2 p{
+  font-size: 35px;
+}
+.question-2-3{
+  margin-top: 30px;
+  width: 450px;
+  height: 100px;
+  border-radius: 10px;
+  border-width: 5px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+
+
+//question2======================================================================
+//question3======================================================================
+.question-3-1,.question-3-2, .question-3-3{
+  margin-top: 150px;
+  display:none;
+  text-align: center;
+}
+
+.question-3-1 p, .question-3-2 p{
+  font-size: 35px;
+}
+.question-3-3 p{
+  font-size: 35px;
+}
+
+.check{
+display: block;
+}
+
+#check1{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check2{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check3{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+
+//question3======================================================================
+
+//question4======================================================================
+.question-4{
+  display:none;
+  text-align: center;
+}
+.question-4-1{
+  margin-top: 150px;
+}
+
+.question-4-1 p{
+  font-size: 35px;
+}
+
+.check{
+display: block;
+}
+
+#check1{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check2{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check3{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+
+//question4======================================================================
+//question5======================================================================
+.question-5{
+  display:none;
+  text-align: center;
+}
+.question-5-1{
+  margin-top: 150px;
+}
+
+.question-5-1 p{
+  font-size: 35px;
+}
+
+.check{
+display: block;
+}
+
+#check1{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check2{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+#check3{
+  display:inline-block;
+  width: 20%;
+  height:20%;
+  text-align: center;
+}
+
+
+//question5======================================================================
+//question6======================================================================
+
+
+
+
+
+//question6======================================================================
+//question7======================================================================
+
+
+
+
+
+//question7======================================================================
+//question8======================================================================
+
+
+
+
+
+//question8======================================================================
+
+
+
+//question======================================================================
