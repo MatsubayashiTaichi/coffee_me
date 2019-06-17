@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "coffee_me"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:MatsubayashiTaichi/coffee_me.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

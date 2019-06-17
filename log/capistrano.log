@@ -15,3 +15,1287 @@
   INFO [71a0a5f4] Finished in 0.275 seconds with exit status 0 (successful).
   INFO [99561a11] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as hoge@118.27.23.224
  DEBUG [99561a11] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:03:30 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [daac3e04] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [daac3e04] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [d7480e31] Finished in 10.791 seconds with exit status 0 (successful).
+  INFO [e87c9270] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [e87c9270] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [ed4ed6b7] Finished in 0.238 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 100.0%
+  INFO [a1803d45] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh as hoge@118.27.23.224
+ DEBUG [a1803d45] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh )
+  INFO [7957e577] Finished in 0.303 seconds with exit status 0 (successful).
+  INFO [ec1aebe5] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as hoge@118.27.23.224
+ DEBUG [ec1aebe5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:05:46 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a3f6cdbc] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [a3f6cdbc] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [b5c6000d] Finished in 4.878 seconds with exit status 0 (successful).
+  INFO [6f222d6b] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [6f222d6b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [f8dd600f] Finished in 0.252 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 100.0%
+  INFO [aad5b9f5] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh as hoge@118.27.23.224
+ DEBUG [aad5b9f5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh )
+  INFO [623165ad] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [5b117333] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [5b117333] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [a3c703b5] 	Permission denied (publickey).
+ DEBUG [a3c703b5] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:14:16 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [770c490e] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [770c490e] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [544783b3] Finished in 19.412 seconds with exit status 0 (successful).
+  INFO [0335894b] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [0335894b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [f411c9c4] Finished in 0.235 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [bd831fbd] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [bd831fbd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [1934559c] Finished in 0.251 seconds with exit status 0 (successful).
+  INFO [26789482] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [26789482] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [19b913b3] 	Permission denied (publickey).
+ DEBUG [19b913b3] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:24:39 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7297c463] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [7297c463] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [1a4fab96] Finished in 0.930 seconds with exit status 0 (successful).
+  INFO [4c41efa5] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [4c41efa5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [416aaa2d] Finished in 0.218 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [1f2bd13e] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [1f2bd13e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [33fd2155] Finished in 0.261 seconds with exit status 0 (successful).
+  INFO [00f52e1f] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [00f52e1f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [cb84b828] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [cb84b828] Finished in 2.369 seconds with exit status 0 (successful).
+  INFO [df48321b] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [df48321b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [fcdcc249] Finished in 0.203 seconds with exit status 0 (successful).
+  INFO [828178cb] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [828178cb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [3fc5a0ce] Finished in 0.258 seconds with exit status 0 (successful).
+  INFO [27bfb1e5] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [27bfb1e5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [07ff2912] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG [26ef2a9a] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [26ef2a9a] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [d554c997] Finished in 0.275 seconds with exit status 0 (successful).
+ DEBUG [8b8a21c8] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [8b8a21c8] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [44eb27d7] Finished in 0.255 seconds with exit status 1 (failed).
+ DEBUG [a3ea714c] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [a3ea714c] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [e5171b56] Finished in 0.255 seconds with exit status 1 (failed).
+ DEBUG [4442c1b7] Running if test ! -d /var/www/coffee_me; then echo "Directory does not exist '/var/www/coffee_me'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [4442c1b7] Command: if test ! -d /var/www/coffee_me; then echo "Directory does not exist '/var/www/coffee_me'" 1>&2; false; fi
+ DEBUG [54e2c6e8] Finished in 0.266 seconds with exit status 0 (successful).
+  INFO [b2e59a2a] Running /usr/bin/env git clone --mirror git@github.com:MatsubayashiTaichi/coffee_me.git /var/www/coffee_me/repo as hoge@118.27.23.224
+ DEBUG [b2e59a2a] Command: cd /var/www/coffee_me && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git clone --mirror git@github.com:MatsubayashiTaichi/coffee_me.git /var/www/coffee_me/repo )
+ DEBUG [fb683249] 	Cloning into bare repository '/var/www/coffee_me/repo'...
+ DEBUG [fb683249] 	Warning: Permanently added the RSA host key for IP address '13.114.40.48' to the list of known hosts.
+  INFO [fb683249] Finished in 4.424 seconds with exit status 0 (successful).
+ DEBUG [de3fa62a] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [de3fa62a] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [197cce76] Finished in 0.179 seconds with exit status 0 (successful).
+  INFO [8636c5f7] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [8636c5f7] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [1e1e5222] Finished in 0.246 seconds with exit status 0 (successful).
+  INFO [39671b9b] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [39671b9b] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [afa63eac] 	Fetching origin
+  INFO [afa63eac] Finished in 2.391 seconds with exit status 0 (successful).
+ DEBUG [d8fc4a4c] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [d8fc4a4c] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [87bd1ce6] Finished in 0.259 seconds with exit status 0 (successful).
+  INFO [2759601f] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445 as hoge@118.27.23.224
+ DEBUG [2759601f] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445 )
+  INFO [ae33d412] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [3e6f6543] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152445 as hoge@118.27.23.224
+ DEBUG [3e6f6543] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152445 )
+  INFO [a003b719] Finished in 0.447 seconds with exit status 0 (successful).
+ DEBUG [3cff1ed3] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [3cff1ed3] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [1666424c] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [08a64a23] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [08a64a23] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [5fb7e7c0] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [5fb7e7c0] Finished in 0.236 seconds with exit status 0 (successful).
+ DEBUG [b32d3cd1] Running if test ! -d /var/www/coffee_me/releases/20190617152445; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152445'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [b32d3cd1] Command: if test ! -d /var/www/coffee_me/releases/20190617152445; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152445'" 1>&2; false; fi
+ DEBUG [9199bc44] Finished in 0.290 seconds with exit status 0 (successful).
+  INFO [2db47ea0] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [2db47ea0] Command: cd /var/www/coffee_me/releases/20190617152445 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [e9b08bfc] Finished in 0.275 seconds with exit status 0 (successful).
+  INFO [3e1812a8] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445/config as hoge@118.27.23.224
+ DEBUG [3e1812a8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445/config )
+  INFO [31cf3d66] Finished in 0.295 seconds with exit status 0 (successful).
+ DEBUG [afbc3ded] Running [ -L /var/www/coffee_me/releases/20190617152445/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [afbc3ded] Command: [ -L /var/www/coffee_me/releases/20190617152445/config/secrets.yml ]
+ DEBUG [3b316f06] Finished in 0.257 seconds with exit status 1 (failed).
+ DEBUG [5200f3b9] Running [ -f /var/www/coffee_me/releases/20190617152445/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [5200f3b9] Command: [ -f /var/www/coffee_me/releases/20190617152445/config/secrets.yml ]
+ DEBUG [592094ed] Finished in 0.239 seconds with exit status 0 (successful).
+  INFO [2502440e] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617152445/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [2502440e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617152445/config/secrets.yml )
+  INFO [5946c6ff] Finished in 0.254 seconds with exit status 0 (successful).
+  INFO [a57c5405] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152445/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [a57c5405] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152445/config/secrets.yml )
+  INFO [ece0dd40] Finished in 0.248 seconds with exit status 0 (successful).
+  INFO [d6c61530] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445 /var/www/coffee_me/releases/20190617152445/tmp /var/www/coffee_me/releases/20190617152445/vendor /var/www/coffee_me/releases/20190617152445/public as hoge@118.27.23.224
+ DEBUG [d6c61530] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152445 /var/www/coffee_me/releases/20190617152445/tmp /var/www/coffee_me/releases/20190617152445/vendor /var/www/coffee_me/releases/20190617152445/public )
+  INFO [862e8ed2] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [32cce507] Running [ -L /var/www/coffee_me/releases/20190617152445/log ] as hoge@118.27.23.224
+ DEBUG [32cce507] Command: [ -L /var/www/coffee_me/releases/20190617152445/log ]
+ DEBUG [d974ad20] Finished in 0.263 seconds with exit status 1 (failed).
+ DEBUG [e715cdbf] Running [ -d /var/www/coffee_me/releases/20190617152445/log ] as hoge@118.27.23.224
+ DEBUG [e715cdbf] Command: [ -d /var/www/coffee_me/releases/20190617152445/log ]
+ DEBUG [ffbf9cfd] Finished in 0.259 seconds with exit status 0 (successful).
+  INFO [a47dfcf3] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152445/log as hoge@118.27.23.224
+ DEBUG [a47dfcf3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152445/log )
+  INFO [c6e76ba2] Finished in 0.252 seconds with exit status 0 (successful).
+  INFO [b7893cc0] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152445/log as hoge@118.27.23.224
+ DEBUG [b7893cc0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152445/log )
+  INFO [a3181454] Finished in 0.291 seconds with exit status 0 (successful).
+ DEBUG [30ccb574] Running [ -L /var/www/coffee_me/releases/20190617152445/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [30ccb574] Command: [ -L /var/www/coffee_me/releases/20190617152445/tmp/pids ]
+ DEBUG [0148fc4b] Finished in 0.245 seconds with exit status 1 (failed).
+ DEBUG [9fb2202c] Running [ -d /var/www/coffee_me/releases/20190617152445/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [9fb2202c] Command: [ -d /var/www/coffee_me/releases/20190617152445/tmp/pids ]
+ DEBUG [49434179] Finished in 0.248 seconds with exit status 1 (failed).
+  INFO [be9b935e] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152445/tmp/pids as hoge@118.27.23.224
+ DEBUG [be9b935e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152445/tmp/pids )
+  INFO [b104d8cb] Finished in 0.272 seconds with exit status 0 (successful).
+ DEBUG [600067be] Running [ -L /var/www/coffee_me/releases/20190617152445/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [600067be] Command: [ -L /var/www/coffee_me/releases/20190617152445/tmp/cache ]
+ DEBUG [9674a20d] Finished in 0.246 seconds with exit status 1 (failed).
+ DEBUG [0bd841de] Running [ -d /var/www/coffee_me/releases/20190617152445/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [0bd841de] Command: [ -d /var/www/coffee_me/releases/20190617152445/tmp/cache ]
+ DEBUG [dc478a03] Finished in 0.259 seconds with exit status 0 (successful).
+  INFO [44876eda] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152445/tmp/cache as hoge@118.27.23.224
+ DEBUG [44876eda] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152445/tmp/cache )
+  INFO [dd776315] Finished in 0.299 seconds with exit status 0 (successful).
+  INFO [4dfd65a7] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152445/tmp/cache as hoge@118.27.23.224
+ DEBUG [4dfd65a7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152445/tmp/cache )
+  INFO [1ebf44fc] Finished in 0.257 seconds with exit status 0 (successful).
+ DEBUG [425789a5] Running [ -L /var/www/coffee_me/releases/20190617152445/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [425789a5] Command: [ -L /var/www/coffee_me/releases/20190617152445/tmp/sockets ]
+ DEBUG [e7383d27] Finished in 0.278 seconds with exit status 1 (failed).
+ DEBUG [ebf639b0] Running [ -d /var/www/coffee_me/releases/20190617152445/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [ebf639b0] Command: [ -d /var/www/coffee_me/releases/20190617152445/tmp/sockets ]
+ DEBUG [11bc5e38] Finished in 0.258 seconds with exit status 1 (failed).
+  INFO [99883aa5] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152445/tmp/sockets as hoge@118.27.23.224
+ DEBUG [99883aa5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152445/tmp/sockets )
+  INFO [273a99b2] Finished in 0.264 seconds with exit status 0 (successful).
+ DEBUG [05a1689f] Running [ -L /var/www/coffee_me/releases/20190617152445/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [05a1689f] Command: [ -L /var/www/coffee_me/releases/20190617152445/vendor/bundle ]
+ DEBUG [2f3689fc] Finished in 0.237 seconds with exit status 1 (failed).
+ DEBUG [368d3ab7] Running [ -d /var/www/coffee_me/releases/20190617152445/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [368d3ab7] Command: [ -d /var/www/coffee_me/releases/20190617152445/vendor/bundle ]
+ DEBUG [125b1f12] Finished in 0.270 seconds with exit status 1 (failed).
+  INFO [3fc3e4eb] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152445/vendor/bundle as hoge@118.27.23.224
+ DEBUG [3fc3e4eb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152445/vendor/bundle )
+  INFO [4ef94fcb] Finished in 0.262 seconds with exit status 0 (successful).
+ DEBUG [0615db5b] Running [ -L /var/www/coffee_me/releases/20190617152445/public/system ] as hoge@118.27.23.224
+ DEBUG [0615db5b] Command: [ -L /var/www/coffee_me/releases/20190617152445/public/system ]
+ DEBUG [c191bdc5] Finished in 0.254 seconds with exit status 1 (failed).
+ DEBUG [307844b0] Running [ -d /var/www/coffee_me/releases/20190617152445/public/system ] as hoge@118.27.23.224
+ DEBUG [307844b0] Command: [ -d /var/www/coffee_me/releases/20190617152445/public/system ]
+ DEBUG [fbd0be46] Finished in 0.253 seconds with exit status 1 (failed).
+  INFO [f3eb445c] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152445/public/system as hoge@118.27.23.224
+ DEBUG [f3eb445c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152445/public/system )
+  INFO [fbd26f6c] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [c32ea0be] Running [ -L /var/www/coffee_me/releases/20190617152445/public/assets ] as hoge@118.27.23.224
+ DEBUG [c32ea0be] Command: [ -L /var/www/coffee_me/releases/20190617152445/public/assets ]
+ DEBUG [4433a19f] Finished in 0.231 seconds with exit status 1 (failed).
+ DEBUG [51c417fa] Running [ -d /var/www/coffee_me/releases/20190617152445/public/assets ] as hoge@118.27.23.224
+ DEBUG [51c417fa] Command: [ -d /var/www/coffee_me/releases/20190617152445/public/assets ]
+ DEBUG [f03cd948] Finished in 0.272 seconds with exit status 1 (failed).
+  INFO [6169099e] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152445/public/assets as hoge@118.27.23.224
+ DEBUG [6169099e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152445/public/assets )
+  INFO [3628c7cd] Finished in 0.234 seconds with exit status 0 (successful).
+ DEBUG [e4c502d2] Running if test ! -d /var/www/coffee_me/releases/20190617152445; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152445'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [e4c502d2] Command: if test ! -d /var/www/coffee_me/releases/20190617152445; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152445'" 1>&2; false; fi
+ DEBUG [d52946b7] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [3d109216] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [3d109216] Command: cd /var/www/coffee_me/releases/20190617152445 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [d99be028] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152445/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+ DEBUG [d99be028] 		from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [d99be028] Finished in 0.467 seconds with exit status 1 (failed).
+  INFO [81100d82] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [81100d82] Command: cd /var/www/coffee_me/releases/20190617152445 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [e4afa1ed] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152445/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:27:17 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [190fde1f] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [190fde1f] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [ef464a8b] Finished in 3.765 seconds with exit status 0 (successful).
+  INFO [7ebe9833] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [7ebe9833] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [62c9fcb0] Finished in 0.229 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [6c903dec] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [6c903dec] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [f53cd94b] Finished in 0.255 seconds with exit status 0 (successful).
+  INFO [50a09165] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [50a09165] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [62e28638] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [62e28638] Finished in 2.422 seconds with exit status 0 (successful).
+  INFO [ddf98af9] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [ddf98af9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [d224d144] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [ef05fe73] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [ef05fe73] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [02e5c4f7] Finished in 0.246 seconds with exit status 0 (successful).
+  INFO [7a92d2f4] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [7a92d2f4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [5e6d9e17] Finished in 0.274 seconds with exit status 0 (successful).
+ DEBUG [6c1273af] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [6c1273af] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [d7d5ac7b] Finished in 0.255 seconds with exit status 0 (successful).
+ DEBUG [0baafe29] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [0baafe29] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [3087048b] Finished in 0.268 seconds with exit status 1 (failed).
+ DEBUG [ed8c6cf1] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [ed8c6cf1] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [e375dcb2] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [0f5c5c1f] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [0f5c5c1f] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [a8a0afe4] Finished in 0.240 seconds with exit status 0 (successful).
+  INFO [5492008c] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [5492008c] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [80c44a32] Finished in 0.242 seconds with exit status 0 (successful).
+  INFO [f93ee4d6] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [f93ee4d6] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ab8e04ff] 	Fetching origin
+  INFO [ab8e04ff] Finished in 2.409 seconds with exit status 0 (successful).
+ DEBUG [8f4c0938] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [8f4c0938] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [b0d88a81] Finished in 0.209 seconds with exit status 0 (successful).
+  INFO [51a26f87] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726 as hoge@118.27.23.224
+ DEBUG [51a26f87] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726 )
+  INFO [a476d83c] Finished in 0.246 seconds with exit status 0 (successful).
+  INFO [30e31773] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152726 as hoge@118.27.23.224
+ DEBUG [30e31773] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152726 )
+  INFO [4f8231fe] Finished in 0.458 seconds with exit status 0 (successful).
+ DEBUG [55c09761] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [55c09761] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [9b0e4d37] Finished in 0.226 seconds with exit status 0 (successful).
+ DEBUG [a7feb560] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [a7feb560] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [0d9d1ea8] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [0d9d1ea8] Finished in 0.256 seconds with exit status 0 (successful).
+ DEBUG [0149d448] Running if test ! -d /var/www/coffee_me/releases/20190617152726; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152726'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [0149d448] Command: if test ! -d /var/www/coffee_me/releases/20190617152726; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152726'" 1>&2; false; fi
+ DEBUG [ae16ba0b] Finished in 0.238 seconds with exit status 0 (successful).
+  INFO [8182f22e] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [8182f22e] Command: cd /var/www/coffee_me/releases/20190617152726 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [018bcc8b] Finished in 0.245 seconds with exit status 0 (successful).
+  INFO [4259c286] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726/config as hoge@118.27.23.224
+ DEBUG [4259c286] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726/config )
+  INFO [91fc3111] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [6e36e82d] Running [ -L /var/www/coffee_me/releases/20190617152726/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [6e36e82d] Command: [ -L /var/www/coffee_me/releases/20190617152726/config/secrets.yml ]
+ DEBUG [096ed74a] Finished in 0.284 seconds with exit status 1 (failed).
+ DEBUG [9efd2d9e] Running [ -f /var/www/coffee_me/releases/20190617152726/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [9efd2d9e] Command: [ -f /var/www/coffee_me/releases/20190617152726/config/secrets.yml ]
+ DEBUG [9398574c] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [c0f3db5c] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617152726/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [c0f3db5c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617152726/config/secrets.yml )
+  INFO [df8c2392] Finished in 0.260 seconds with exit status 0 (successful).
+  INFO [78ecd9d0] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152726/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [78ecd9d0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152726/config/secrets.yml )
+  INFO [61b486da] Finished in 0.248 seconds with exit status 0 (successful).
+  INFO [075af7e4] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726 /var/www/coffee_me/releases/20190617152726/tmp /var/www/coffee_me/releases/20190617152726/vendor /var/www/coffee_me/releases/20190617152726/public as hoge@118.27.23.224
+ DEBUG [075af7e4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152726 /var/www/coffee_me/releases/20190617152726/tmp /var/www/coffee_me/releases/20190617152726/vendor /var/www/coffee_me/releases/20190617152726/public )
+  INFO [b9cc8b3c] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [44a8e777] Running [ -L /var/www/coffee_me/releases/20190617152726/log ] as hoge@118.27.23.224
+ DEBUG [44a8e777] Command: [ -L /var/www/coffee_me/releases/20190617152726/log ]
+ DEBUG [776b8034] Finished in 0.212 seconds with exit status 1 (failed).
+ DEBUG [1bf4ccc4] Running [ -d /var/www/coffee_me/releases/20190617152726/log ] as hoge@118.27.23.224
+ DEBUG [1bf4ccc4] Command: [ -d /var/www/coffee_me/releases/20190617152726/log ]
+ DEBUG [9ed4ab22] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [ddaa8562] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152726/log as hoge@118.27.23.224
+ DEBUG [ddaa8562] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152726/log )
+  INFO [0cfe0071] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [022d7835] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152726/log as hoge@118.27.23.224
+ DEBUG [022d7835] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152726/log )
+  INFO [773cf84b] Finished in 0.244 seconds with exit status 0 (successful).
+ DEBUG [4975631b] Running [ -L /var/www/coffee_me/releases/20190617152726/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [4975631b] Command: [ -L /var/www/coffee_me/releases/20190617152726/tmp/pids ]
+ DEBUG [267a3032] Finished in 0.286 seconds with exit status 1 (failed).
+ DEBUG [5bd9e3cf] Running [ -d /var/www/coffee_me/releases/20190617152726/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [5bd9e3cf] Command: [ -d /var/www/coffee_me/releases/20190617152726/tmp/pids ]
+ DEBUG [6d984c14] Finished in 0.240 seconds with exit status 1 (failed).
+  INFO [16b050fd] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152726/tmp/pids as hoge@118.27.23.224
+ DEBUG [16b050fd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152726/tmp/pids )
+  INFO [499051be] Finished in 0.261 seconds with exit status 0 (successful).
+ DEBUG [1b2a3c2f] Running [ -L /var/www/coffee_me/releases/20190617152726/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [1b2a3c2f] Command: [ -L /var/www/coffee_me/releases/20190617152726/tmp/cache ]
+ DEBUG [62fe9f6b] Finished in 0.266 seconds with exit status 1 (failed).
+ DEBUG [5442987e] Running [ -d /var/www/coffee_me/releases/20190617152726/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [5442987e] Command: [ -d /var/www/coffee_me/releases/20190617152726/tmp/cache ]
+ DEBUG [0f169b91] Finished in 0.221 seconds with exit status 0 (successful).
+  INFO [903841be] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152726/tmp/cache as hoge@118.27.23.224
+ DEBUG [903841be] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152726/tmp/cache )
+  INFO [df5f5145] Finished in 0.349 seconds with exit status 0 (successful).
+  INFO [148c7ff9] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152726/tmp/cache as hoge@118.27.23.224
+ DEBUG [148c7ff9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152726/tmp/cache )
+  INFO [ad080252] Finished in 0.218 seconds with exit status 0 (successful).
+ DEBUG [55c38f36] Running [ -L /var/www/coffee_me/releases/20190617152726/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [55c38f36] Command: [ -L /var/www/coffee_me/releases/20190617152726/tmp/sockets ]
+ DEBUG [81e789d9] Finished in 0.221 seconds with exit status 1 (failed).
+ DEBUG [b1bc624c] Running [ -d /var/www/coffee_me/releases/20190617152726/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [b1bc624c] Command: [ -d /var/www/coffee_me/releases/20190617152726/tmp/sockets ]
+ DEBUG [3ead96f3] Finished in 0.248 seconds with exit status 1 (failed).
+  INFO [b0c516b9] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152726/tmp/sockets as hoge@118.27.23.224
+ DEBUG [b0c516b9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152726/tmp/sockets )
+  INFO [75e0eda8] Finished in 0.256 seconds with exit status 0 (successful).
+ DEBUG [6f1291e9] Running [ -L /var/www/coffee_me/releases/20190617152726/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [6f1291e9] Command: [ -L /var/www/coffee_me/releases/20190617152726/vendor/bundle ]
+ DEBUG [68b0f801] Finished in 0.232 seconds with exit status 1 (failed).
+ DEBUG [2645df5d] Running [ -d /var/www/coffee_me/releases/20190617152726/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [2645df5d] Command: [ -d /var/www/coffee_me/releases/20190617152726/vendor/bundle ]
+ DEBUG [94caf0e0] Finished in 0.260 seconds with exit status 1 (failed).
+  INFO [55f7aee2] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152726/vendor/bundle as hoge@118.27.23.224
+ DEBUG [55f7aee2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152726/vendor/bundle )
+  INFO [9f565041] Finished in 0.256 seconds with exit status 0 (successful).
+ DEBUG [ad23efd8] Running [ -L /var/www/coffee_me/releases/20190617152726/public/system ] as hoge@118.27.23.224
+ DEBUG [ad23efd8] Command: [ -L /var/www/coffee_me/releases/20190617152726/public/system ]
+ DEBUG [acd9ce37] Finished in 0.286 seconds with exit status 1 (failed).
+ DEBUG [8e57281d] Running [ -d /var/www/coffee_me/releases/20190617152726/public/system ] as hoge@118.27.23.224
+ DEBUG [8e57281d] Command: [ -d /var/www/coffee_me/releases/20190617152726/public/system ]
+ DEBUG [9311c440] Finished in 0.259 seconds with exit status 1 (failed).
+  INFO [b6da71ec] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152726/public/system as hoge@118.27.23.224
+ DEBUG [b6da71ec] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152726/public/system )
+  INFO [dcc94f87] Finished in 0.208 seconds with exit status 0 (successful).
+ DEBUG [bffe6c42] Running [ -L /var/www/coffee_me/releases/20190617152726/public/assets ] as hoge@118.27.23.224
+ DEBUG [bffe6c42] Command: [ -L /var/www/coffee_me/releases/20190617152726/public/assets ]
+ DEBUG [ceef0d19] Finished in 0.220 seconds with exit status 1 (failed).
+ DEBUG [a1bfa6bc] Running [ -d /var/www/coffee_me/releases/20190617152726/public/assets ] as hoge@118.27.23.224
+ DEBUG [a1bfa6bc] Command: [ -d /var/www/coffee_me/releases/20190617152726/public/assets ]
+ DEBUG [0895cfbd] Finished in 0.220 seconds with exit status 1 (failed).
+  INFO [297d82b8] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152726/public/assets as hoge@118.27.23.224
+ DEBUG [297d82b8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152726/public/assets )
+  INFO [6fe5fd3d] Finished in 0.311 seconds with exit status 0 (successful).
+ DEBUG [6cd6d911] Running if test ! -d /var/www/coffee_me/releases/20190617152726; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152726'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [6cd6d911] Command: if test ! -d /var/www/coffee_me/releases/20190617152726; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152726'" 1>&2; false; fi
+ DEBUG [8ea3dba3] Finished in 0.237 seconds with exit status 0 (successful).
+ DEBUG [48cfe562] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [48cfe562] Command: cd /var/www/coffee_me/releases/20190617152726 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [eb1ed7ad] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152726/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [eb1ed7ad] Finished in 0.391 seconds with exit status 1 (failed).
+  INFO [309d107a] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [309d107a] Command: cd /var/www/coffee_me/releases/20190617152726 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [284f2717] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152726/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:28:26 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d8c1dc1c] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [d8c1dc1c] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [6517ee3d] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [6e5dfeee] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [6e5dfeee] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [aa891f85] Finished in 0.261 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [8ae34188] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [8ae34188] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [c0cdd392] Finished in 0.251 seconds with exit status 0 (successful).
+  INFO [a2f59497] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [a2f59497] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [315b5ec6] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [315b5ec6] Finished in 2.408 seconds with exit status 0 (successful).
+  INFO [0e33b914] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [0e33b914] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [385dd3c1] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [3ccaa7a1] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [3ccaa7a1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [105f113c] Finished in 0.290 seconds with exit status 0 (successful).
+  INFO [22ef6704] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [22ef6704] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [61be3e94] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [ed68603e] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [ed68603e] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [ef190fed] Finished in 0.233 seconds with exit status 0 (successful).
+ DEBUG [9cb279e5] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [9cb279e5] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [3d55930d] Finished in 0.239 seconds with exit status 1 (failed).
+ DEBUG [4c67fc10] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [4c67fc10] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [19816024] Finished in 0.236 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [f5bbd617] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [f5bbd617] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [e06c2d69] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [05f76221] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [05f76221] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [c40864c2] Finished in 0.260 seconds with exit status 0 (successful).
+  INFO [e734390b] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [e734390b] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7899ae76] 	Fetching origin
+  INFO [7899ae76] Finished in 2.396 seconds with exit status 0 (successful).
+ DEBUG [519ac377] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [519ac377] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [6804c296] Finished in 0.208 seconds with exit status 0 (successful).
+  INFO [085d1c7d] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832 as hoge@118.27.23.224
+ DEBUG [085d1c7d] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832 )
+  INFO [d196a0e2] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO [35a91a90] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152832 as hoge@118.27.23.224
+ DEBUG [35a91a90] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617152832 )
+  INFO [eb2a7c85] Finished in 0.482 seconds with exit status 0 (successful).
+ DEBUG [3cd83047] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [3cd83047] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [33d8861e] Finished in 0.261 seconds with exit status 0 (successful).
+ DEBUG [b046a0d3] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [b046a0d3] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [92f63114] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [92f63114] Finished in 0.217 seconds with exit status 0 (successful).
+ DEBUG [18ac8f11] Running if test ! -d /var/www/coffee_me/releases/20190617152832; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152832'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [18ac8f11] Command: if test ! -d /var/www/coffee_me/releases/20190617152832; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152832'" 1>&2; false; fi
+ DEBUG [496dfc68] Finished in 0.237 seconds with exit status 0 (successful).
+  INFO [8bc1660f] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [8bc1660f] Command: cd /var/www/coffee_me/releases/20190617152832 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [9ec1304d] Finished in 0.248 seconds with exit status 0 (successful).
+  INFO [0f8d8258] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832/config as hoge@118.27.23.224
+ DEBUG [0f8d8258] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832/config )
+  INFO [f38eddec] Finished in 0.229 seconds with exit status 0 (successful).
+ DEBUG [4c276da9] Running [ -L /var/www/coffee_me/releases/20190617152832/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [4c276da9] Command: [ -L /var/www/coffee_me/releases/20190617152832/config/secrets.yml ]
+ DEBUG [d394c46b] Finished in 0.229 seconds with exit status 1 (failed).
+ DEBUG [9b0ade4b] Running [ -f /var/www/coffee_me/releases/20190617152832/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [9b0ade4b] Command: [ -f /var/www/coffee_me/releases/20190617152832/config/secrets.yml ]
+ DEBUG [9cae742d] Finished in 0.247 seconds with exit status 0 (successful).
+  INFO [4025932d] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617152832/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [4025932d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617152832/config/secrets.yml )
+  INFO [2da28403] Finished in 0.227 seconds with exit status 0 (successful).
+  INFO [30104170] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152832/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [30104170] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617152832/config/secrets.yml )
+  INFO [c294d305] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [8f20d5db] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832 /var/www/coffee_me/releases/20190617152832/tmp /var/www/coffee_me/releases/20190617152832/vendor /var/www/coffee_me/releases/20190617152832/public as hoge@118.27.23.224
+ DEBUG [8f20d5db] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617152832 /var/www/coffee_me/releases/20190617152832/tmp /var/www/coffee_me/releases/20190617152832/vendor /var/www/coffee_me/releases/20190617152832/public )
+  INFO [807c631b] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [488c5d7a] Running [ -L /var/www/coffee_me/releases/20190617152832/log ] as hoge@118.27.23.224
+ DEBUG [488c5d7a] Command: [ -L /var/www/coffee_me/releases/20190617152832/log ]
+ DEBUG [3a3aebfb] Finished in 0.225 seconds with exit status 1 (failed).
+ DEBUG [9a0766f9] Running [ -d /var/www/coffee_me/releases/20190617152832/log ] as hoge@118.27.23.224
+ DEBUG [9a0766f9] Command: [ -d /var/www/coffee_me/releases/20190617152832/log ]
+ DEBUG [aad7d002] Finished in 0.239 seconds with exit status 0 (successful).
+  INFO [b52555bd] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152832/log as hoge@118.27.23.224
+ DEBUG [b52555bd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152832/log )
+  INFO [5cf2be9e] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [38bcb92b] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152832/log as hoge@118.27.23.224
+ DEBUG [38bcb92b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617152832/log )
+  INFO [71aac2c1] Finished in 0.256 seconds with exit status 0 (successful).
+ DEBUG [11584ebc] Running [ -L /var/www/coffee_me/releases/20190617152832/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [11584ebc] Command: [ -L /var/www/coffee_me/releases/20190617152832/tmp/pids ]
+ DEBUG [adb50ec7] Finished in 0.284 seconds with exit status 1 (failed).
+ DEBUG [4229923e] Running [ -d /var/www/coffee_me/releases/20190617152832/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [4229923e] Command: [ -d /var/www/coffee_me/releases/20190617152832/tmp/pids ]
+ DEBUG [0562bda2] Finished in 0.227 seconds with exit status 1 (failed).
+  INFO [49635f40] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152832/tmp/pids as hoge@118.27.23.224
+ DEBUG [49635f40] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617152832/tmp/pids )
+  INFO [fc3ff918] Finished in 0.287 seconds with exit status 0 (successful).
+ DEBUG [3c7b57a1] Running [ -L /var/www/coffee_me/releases/20190617152832/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [3c7b57a1] Command: [ -L /var/www/coffee_me/releases/20190617152832/tmp/cache ]
+ DEBUG [ab529381] Finished in 0.238 seconds with exit status 1 (failed).
+ DEBUG [f558c25c] Running [ -d /var/www/coffee_me/releases/20190617152832/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [f558c25c] Command: [ -d /var/www/coffee_me/releases/20190617152832/tmp/cache ]
+ DEBUG [bbcf895d] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [31a778ad] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152832/tmp/cache as hoge@118.27.23.224
+ DEBUG [31a778ad] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617152832/tmp/cache )
+  INFO [33360aaa] Finished in 0.346 seconds with exit status 0 (successful).
+  INFO [b630f778] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152832/tmp/cache as hoge@118.27.23.224
+ DEBUG [b630f778] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617152832/tmp/cache )
+  INFO [75ce7f44] Finished in 0.244 seconds with exit status 0 (successful).
+ DEBUG [9e0f0074] Running [ -L /var/www/coffee_me/releases/20190617152832/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [9e0f0074] Command: [ -L /var/www/coffee_me/releases/20190617152832/tmp/sockets ]
+ DEBUG [354ddaca] Finished in 0.256 seconds with exit status 1 (failed).
+ DEBUG [24f9f40d] Running [ -d /var/www/coffee_me/releases/20190617152832/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [24f9f40d] Command: [ -d /var/www/coffee_me/releases/20190617152832/tmp/sockets ]
+ DEBUG [3c12fc49] Finished in 0.266 seconds with exit status 1 (failed).
+  INFO [99540877] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152832/tmp/sockets as hoge@118.27.23.224
+ DEBUG [99540877] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617152832/tmp/sockets )
+  INFO [f173cd61] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [c600888c] Running [ -L /var/www/coffee_me/releases/20190617152832/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [c600888c] Command: [ -L /var/www/coffee_me/releases/20190617152832/vendor/bundle ]
+ DEBUG [edd749a4] Finished in 0.230 seconds with exit status 1 (failed).
+ DEBUG [ea1ae6fc] Running [ -d /var/www/coffee_me/releases/20190617152832/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [ea1ae6fc] Command: [ -d /var/www/coffee_me/releases/20190617152832/vendor/bundle ]
+ DEBUG [9b90fbd7] Finished in 0.273 seconds with exit status 1 (failed).
+  INFO [8df11f6d] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152832/vendor/bundle as hoge@118.27.23.224
+ DEBUG [8df11f6d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617152832/vendor/bundle )
+  INFO [e6f0d5c4] Finished in 0.272 seconds with exit status 0 (successful).
+ DEBUG [bdcad041] Running [ -L /var/www/coffee_me/releases/20190617152832/public/system ] as hoge@118.27.23.224
+ DEBUG [bdcad041] Command: [ -L /var/www/coffee_me/releases/20190617152832/public/system ]
+ DEBUG [7216c495] Finished in 0.256 seconds with exit status 1 (failed).
+ DEBUG [05bb50e2] Running [ -d /var/www/coffee_me/releases/20190617152832/public/system ] as hoge@118.27.23.224
+ DEBUG [05bb50e2] Command: [ -d /var/www/coffee_me/releases/20190617152832/public/system ]
+ DEBUG [eefb87c2] Finished in 0.254 seconds with exit status 1 (failed).
+  INFO [ad05bf99] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152832/public/system as hoge@118.27.23.224
+ DEBUG [ad05bf99] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617152832/public/system )
+  INFO [43f64df9] Finished in 0.263 seconds with exit status 0 (successful).
+ DEBUG [6bf86b05] Running [ -L /var/www/coffee_me/releases/20190617152832/public/assets ] as hoge@118.27.23.224
+ DEBUG [6bf86b05] Command: [ -L /var/www/coffee_me/releases/20190617152832/public/assets ]
+ DEBUG [b0899c90] Finished in 0.272 seconds with exit status 1 (failed).
+ DEBUG [22b1a3ef] Running [ -d /var/www/coffee_me/releases/20190617152832/public/assets ] as hoge@118.27.23.224
+ DEBUG [22b1a3ef] Command: [ -d /var/www/coffee_me/releases/20190617152832/public/assets ]
+ DEBUG [9d70ce2e] Finished in 0.231 seconds with exit status 1 (failed).
+  INFO [f64381a8] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152832/public/assets as hoge@118.27.23.224
+ DEBUG [f64381a8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617152832/public/assets )
+  INFO [bfa91af6] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [89af1c7d] Running if test ! -d /var/www/coffee_me/releases/20190617152832; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152832'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [89af1c7d] Command: if test ! -d /var/www/coffee_me/releases/20190617152832; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617152832'" 1>&2; false; fi
+ DEBUG [c1619017] Finished in 0.218 seconds with exit status 0 (successful).
+ DEBUG [5883f2e2] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [5883f2e2] Command: cd /var/www/coffee_me/releases/20190617152832 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [36884368] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152832/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [36884368] Finished in 0.427 seconds with exit status 1 (failed).
+  INFO [74cdde31] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [74cdde31] Command: cd /var/www/coffee_me/releases/20190617152832 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [a38b0392] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617152832/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:31:37 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1539f75d] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [1539f75d] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [c2102bcd] Finished in 0.893 seconds with exit status 0 (successful).
+  INFO [e49b797a] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [e49b797a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [8fd6fa80] Finished in 0.236 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [904f0627] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [904f0627] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [2b52092b] Finished in 0.261 seconds with exit status 0 (successful).
+  INFO [752cb25f] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [752cb25f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [225378f6] 	Warning: Permanently added the RSA host key for IP address '52.192.72.89' to the list of known hosts.
+ DEBUG [225378f6] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [225378f6] Finished in 2.335 seconds with exit status 0 (successful).
+  INFO [853cdb03] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [853cdb03] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [72fe90a0] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [6230ad71] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [6230ad71] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [b0492150] Finished in 0.296 seconds with exit status 0 (successful).
+  INFO [090aad28] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [090aad28] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [a51d4926] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [7f096152] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [7f096152] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [5e7ee6eb] Finished in 0.234 seconds with exit status 0 (successful).
+ DEBUG [12d07eb3] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [12d07eb3] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [d1c34f71] Finished in 0.234 seconds with exit status 1 (failed).
+ DEBUG [c8c81dc0] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [c8c81dc0] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [e6bfce30] Finished in 0.239 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [819dec3d] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [819dec3d] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [b4573392] Finished in 0.247 seconds with exit status 0 (successful).
+  INFO [6677378e] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [6677378e] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [bc11a824] Finished in 0.281 seconds with exit status 0 (successful).
+  INFO [80c33902] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [80c33902] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b3cc80b0] 	Fetching origin
+  INFO [b3cc80b0] Finished in 2.318 seconds with exit status 0 (successful).
+ DEBUG [afa11dc9] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [afa11dc9] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [90b3d293] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO [4bb7d793] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143 as hoge@118.27.23.224
+ DEBUG [4bb7d793] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143 )
+  INFO [668b4000] Finished in 0.278 seconds with exit status 0 (successful).
+  INFO [f89110ff] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617153143 as hoge@118.27.23.224
+ DEBUG [f89110ff] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617153143 )
+  INFO [d8b4646f] Finished in 0.482 seconds with exit status 0 (successful).
+ DEBUG [aea7e492] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [aea7e492] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [cb241ce5] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG [d0b6c7ed] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [d0b6c7ed] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [5ebfc928] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [5ebfc928] Finished in 0.239 seconds with exit status 0 (successful).
+ DEBUG [3b32655b] Running if test ! -d /var/www/coffee_me/releases/20190617153143; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153143'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [3b32655b] Command: if test ! -d /var/www/coffee_me/releases/20190617153143; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153143'" 1>&2; false; fi
+ DEBUG [e8d515eb] Finished in 0.242 seconds with exit status 0 (successful).
+  INFO [13da305c] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [13da305c] Command: cd /var/www/coffee_me/releases/20190617153143 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [cd2a14b0] Finished in 0.240 seconds with exit status 0 (successful).
+  INFO [273974c1] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143/config as hoge@118.27.23.224
+ DEBUG [273974c1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143/config )
+  INFO [899e3009] Finished in 0.242 seconds with exit status 0 (successful).
+ DEBUG [dc16ca9a] Running [ -L /var/www/coffee_me/releases/20190617153143/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [dc16ca9a] Command: [ -L /var/www/coffee_me/releases/20190617153143/config/secrets.yml ]
+ DEBUG [8f5ecf81] Finished in 0.265 seconds with exit status 1 (failed).
+ DEBUG [1efd6470] Running [ -f /var/www/coffee_me/releases/20190617153143/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [1efd6470] Command: [ -f /var/www/coffee_me/releases/20190617153143/config/secrets.yml ]
+ DEBUG [0b5cb719] Finished in 0.215 seconds with exit status 0 (successful).
+  INFO [eb889cf2] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617153143/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [eb889cf2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617153143/config/secrets.yml )
+  INFO [13e527c5] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [0cc6f362] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617153143/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [0cc6f362] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617153143/config/secrets.yml )
+  INFO [0444d3fd] Finished in 0.256 seconds with exit status 0 (successful).
+  INFO [08788b6a] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143 /var/www/coffee_me/releases/20190617153143/tmp /var/www/coffee_me/releases/20190617153143/vendor /var/www/coffee_me/releases/20190617153143/public as hoge@118.27.23.224
+ DEBUG [08788b6a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153143 /var/www/coffee_me/releases/20190617153143/tmp /var/www/coffee_me/releases/20190617153143/vendor /var/www/coffee_me/releases/20190617153143/public )
+  INFO [79be59cc] Finished in 0.245 seconds with exit status 0 (successful).
+ DEBUG [1c98f869] Running [ -L /var/www/coffee_me/releases/20190617153143/log ] as hoge@118.27.23.224
+ DEBUG [1c98f869] Command: [ -L /var/www/coffee_me/releases/20190617153143/log ]
+ DEBUG [8b9f1cb0] Finished in 0.229 seconds with exit status 1 (failed).
+ DEBUG [593312f8] Running [ -d /var/www/coffee_me/releases/20190617153143/log ] as hoge@118.27.23.224
+ DEBUG [593312f8] Command: [ -d /var/www/coffee_me/releases/20190617153143/log ]
+ DEBUG [db58a546] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO [97b0b329] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153143/log as hoge@118.27.23.224
+ DEBUG [97b0b329] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153143/log )
+  INFO [dbf65b9d] Finished in 0.231 seconds with exit status 0 (successful).
+  INFO [3ae34134] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617153143/log as hoge@118.27.23.224
+ DEBUG [3ae34134] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617153143/log )
+  INFO [88d8d5e0] Finished in 0.271 seconds with exit status 0 (successful).
+ DEBUG [4be6f8f4] Running [ -L /var/www/coffee_me/releases/20190617153143/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [4be6f8f4] Command: [ -L /var/www/coffee_me/releases/20190617153143/tmp/pids ]
+ DEBUG [10867fc8] Finished in 0.280 seconds with exit status 1 (failed).
+ DEBUG [97d44d7c] Running [ -d /var/www/coffee_me/releases/20190617153143/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [97d44d7c] Command: [ -d /var/www/coffee_me/releases/20190617153143/tmp/pids ]
+ DEBUG [c4a77a1f] Finished in 0.258 seconds with exit status 1 (failed).
+  INFO [6321fcbc] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617153143/tmp/pids as hoge@118.27.23.224
+ DEBUG [6321fcbc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617153143/tmp/pids )
+  INFO [03d6342a] Finished in 0.241 seconds with exit status 0 (successful).
+ DEBUG [16897ee6] Running [ -L /var/www/coffee_me/releases/20190617153143/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [16897ee6] Command: [ -L /var/www/coffee_me/releases/20190617153143/tmp/cache ]
+ DEBUG [d3f8b35f] Finished in 0.222 seconds with exit status 1 (failed).
+ DEBUG [d2245e2b] Running [ -d /var/www/coffee_me/releases/20190617153143/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [d2245e2b] Command: [ -d /var/www/coffee_me/releases/20190617153143/tmp/cache ]
+ DEBUG [74ecdcc0] Finished in 0.279 seconds with exit status 0 (successful).
+  INFO [025343fd] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153143/tmp/cache as hoge@118.27.23.224
+ DEBUG [025343fd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153143/tmp/cache )
+  INFO [4e159db0] Finished in 0.317 seconds with exit status 0 (successful).
+  INFO [64edd303] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617153143/tmp/cache as hoge@118.27.23.224
+ DEBUG [64edd303] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617153143/tmp/cache )
+  INFO [fc7ebdae] Finished in 0.257 seconds with exit status 0 (successful).
+ DEBUG [d8fe82a2] Running [ -L /var/www/coffee_me/releases/20190617153143/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [d8fe82a2] Command: [ -L /var/www/coffee_me/releases/20190617153143/tmp/sockets ]
+ DEBUG [d7445153] Finished in 0.285 seconds with exit status 1 (failed).
+ DEBUG [421933c0] Running [ -d /var/www/coffee_me/releases/20190617153143/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [421933c0] Command: [ -d /var/www/coffee_me/releases/20190617153143/tmp/sockets ]
+ DEBUG [4d339a32] Finished in 0.277 seconds with exit status 1 (failed).
+  INFO [767cfb76] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617153143/tmp/sockets as hoge@118.27.23.224
+ DEBUG [767cfb76] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617153143/tmp/sockets )
+  INFO [0ad6a502] Finished in 0.235 seconds with exit status 0 (successful).
+ DEBUG [70b98097] Running [ -L /var/www/coffee_me/releases/20190617153143/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [70b98097] Command: [ -L /var/www/coffee_me/releases/20190617153143/vendor/bundle ]
+ DEBUG [3d64b26f] Finished in 0.251 seconds with exit status 1 (failed).
+ DEBUG [83501969] Running [ -d /var/www/coffee_me/releases/20190617153143/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [83501969] Command: [ -d /var/www/coffee_me/releases/20190617153143/vendor/bundle ]
+ DEBUG [0174d169] Finished in 0.207 seconds with exit status 1 (failed).
+  INFO [2db0ac0d] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617153143/vendor/bundle as hoge@118.27.23.224
+ DEBUG [2db0ac0d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617153143/vendor/bundle )
+  INFO [a4580a55] Finished in 0.257 seconds with exit status 0 (successful).
+ DEBUG [21dcede7] Running [ -L /var/www/coffee_me/releases/20190617153143/public/system ] as hoge@118.27.23.224
+ DEBUG [21dcede7] Command: [ -L /var/www/coffee_me/releases/20190617153143/public/system ]
+ DEBUG [25a71223] Finished in 0.217 seconds with exit status 1 (failed).
+ DEBUG [f3201166] Running [ -d /var/www/coffee_me/releases/20190617153143/public/system ] as hoge@118.27.23.224
+ DEBUG [f3201166] Command: [ -d /var/www/coffee_me/releases/20190617153143/public/system ]
+ DEBUG [175c4c59] Finished in 0.222 seconds with exit status 1 (failed).
+  INFO [1ff6fc42] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617153143/public/system as hoge@118.27.23.224
+ DEBUG [1ff6fc42] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617153143/public/system )
+  INFO [4c98b772] Finished in 0.247 seconds with exit status 0 (successful).
+ DEBUG [e7b3b091] Running [ -L /var/www/coffee_me/releases/20190617153143/public/assets ] as hoge@118.27.23.224
+ DEBUG [e7b3b091] Command: [ -L /var/www/coffee_me/releases/20190617153143/public/assets ]
+ DEBUG [f08f90f1] Finished in 0.217 seconds with exit status 1 (failed).
+ DEBUG [9108058f] Running [ -d /var/www/coffee_me/releases/20190617153143/public/assets ] as hoge@118.27.23.224
+ DEBUG [9108058f] Command: [ -d /var/www/coffee_me/releases/20190617153143/public/assets ]
+ DEBUG [2769226c] Finished in 0.227 seconds with exit status 1 (failed).
+  INFO [b16e157f] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617153143/public/assets as hoge@118.27.23.224
+ DEBUG [b16e157f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617153143/public/assets )
+  INFO [a5cc5134] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG [16db7b89] Running if test ! -d /var/www/coffee_me/releases/20190617153143; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153143'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [16db7b89] Command: if test ! -d /var/www/coffee_me/releases/20190617153143; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153143'" 1>&2; false; fi
+ DEBUG [d558fafa] Finished in 0.209 seconds with exit status 0 (successful).
+ DEBUG [aa2c87ac] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [aa2c87ac] Command: cd /var/www/coffee_me/releases/20190617153143 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [849248f7] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617153143/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [849248f7] Finished in 0.362 seconds with exit status 1 (failed).
+  INFO [61d28928] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [61d28928] Command: cd /var/www/coffee_me/releases/20190617153143 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [d9b4f5a3] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617153143/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:34:51 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2b269e1f] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [2b269e1f] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [6b80181a] Finished in 0.885 seconds with exit status 0 (successful).
+  INFO [2d770f15] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [2d770f15] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [002b37c4] Finished in 0.218 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-root.sh 100.0%
+  INFO [fdf561db] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh as hoge@118.27.23.224
+ DEBUG [fdf561db] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-root.sh )
+  INFO [b94f038d] Finished in 0.256 seconds with exit status 0 (successful).
+  INFO [5df6944d] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [5df6944d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [0f805128] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [0f805128] Finished in 2.325 seconds with exit status 0 (successful).
+  INFO [3e515195] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [3e515195] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [7052c714] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [8d4f9223] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [8d4f9223] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [140fbc4c] Finished in 0.260 seconds with exit status 0 (successful).
+  INFO [f31166a3] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [f31166a3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [bf88ec41] Finished in 0.250 seconds with exit status 0 (successful).
+ DEBUG [1438f4a0] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [1438f4a0] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [6ba50606] Finished in 0.233 seconds with exit status 0 (successful).
+ DEBUG [fa15f8e2] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [fa15f8e2] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [e0099364] Finished in 0.225 seconds with exit status 1 (failed).
+ DEBUG [9760a1e2] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [9760a1e2] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [de6c7358] Finished in 0.236 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [9c58bca5] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [9c58bca5] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [ce4357c6] Finished in 0.237 seconds with exit status 0 (successful).
+  INFO [c670d4c4] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [c670d4c4] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [f7de0308] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [e9e52a25] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [e9e52a25] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f16debb5] 	Fetching origin
+  INFO [f16debb5] Finished in 2.415 seconds with exit status 0 (successful).
+ DEBUG [b728b11c] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [b728b11c] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [34956cfb] Finished in 0.215 seconds with exit status 0 (successful).
+  INFO [04fc7b47] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456 as hoge@118.27.23.224
+ DEBUG [04fc7b47] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456 )
+  INFO [60c5d097] Finished in 0.237 seconds with exit status 0 (successful).
+  INFO [085f6ec9] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617153456 as hoge@118.27.23.224
+ DEBUG [085f6ec9] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617153456 )
+  INFO [95bd65bd] Finished in 0.497 seconds with exit status 0 (successful).
+ DEBUG [e2f577a2] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [e2f577a2] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [33afb52b] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [951c08aa] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [951c08aa] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [24081223] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [24081223] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG [0b91f245] Running if test ! -d /var/www/coffee_me/releases/20190617153456; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153456'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [0b91f245] Command: if test ! -d /var/www/coffee_me/releases/20190617153456; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153456'" 1>&2; false; fi
+ DEBUG [81f5fb41] Finished in 0.257 seconds with exit status 0 (successful).
+  INFO [c8a1fac8] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [c8a1fac8] Command: cd /var/www/coffee_me/releases/20190617153456 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [30936eb1] Finished in 0.260 seconds with exit status 0 (successful).
+  INFO [5691d419] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456/config as hoge@118.27.23.224
+ DEBUG [5691d419] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456/config )
+  INFO [aba652a6] Finished in 0.252 seconds with exit status 0 (successful).
+ DEBUG [33e16166] Running [ -L /var/www/coffee_me/releases/20190617153456/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [33e16166] Command: [ -L /var/www/coffee_me/releases/20190617153456/config/secrets.yml ]
+ DEBUG [2b5ea861] Finished in 0.254 seconds with exit status 1 (failed).
+ DEBUG [3be2a613] Running [ -f /var/www/coffee_me/releases/20190617153456/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [3be2a613] Command: [ -f /var/www/coffee_me/releases/20190617153456/config/secrets.yml ]
+ DEBUG [23a85a34] Finished in 0.245 seconds with exit status 0 (successful).
+  INFO [f21db9b0] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617153456/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [f21db9b0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617153456/config/secrets.yml )
+  INFO [1d2c6381] Finished in 0.226 seconds with exit status 0 (successful).
+  INFO [fa710a97] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617153456/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [fa710a97] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617153456/config/secrets.yml )
+  INFO [15d6c8e6] Finished in 0.228 seconds with exit status 0 (successful).
+  INFO [f402fe8d] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456 /var/www/coffee_me/releases/20190617153456/tmp /var/www/coffee_me/releases/20190617153456/vendor /var/www/coffee_me/releases/20190617153456/public as hoge@118.27.23.224
+ DEBUG [f402fe8d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617153456 /var/www/coffee_me/releases/20190617153456/tmp /var/www/coffee_me/releases/20190617153456/vendor /var/www/coffee_me/releases/20190617153456/public )
+  INFO [231099a5] Finished in 0.212 seconds with exit status 0 (successful).
+ DEBUG [8e335287] Running [ -L /var/www/coffee_me/releases/20190617153456/log ] as hoge@118.27.23.224
+ DEBUG [8e335287] Command: [ -L /var/www/coffee_me/releases/20190617153456/log ]
+ DEBUG [fef8489e] Finished in 0.249 seconds with exit status 1 (failed).
+ DEBUG [40224e0c] Running [ -d /var/www/coffee_me/releases/20190617153456/log ] as hoge@118.27.23.224
+ DEBUG [40224e0c] Command: [ -d /var/www/coffee_me/releases/20190617153456/log ]
+ DEBUG [30afe6bd] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [b3f43309] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153456/log as hoge@118.27.23.224
+ DEBUG [b3f43309] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153456/log )
+  INFO [0e514989] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [60d2aed1] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617153456/log as hoge@118.27.23.224
+ DEBUG [60d2aed1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617153456/log )
+  INFO [c8d818cd] Finished in 0.235 seconds with exit status 0 (successful).
+ DEBUG [5cb27ec0] Running [ -L /var/www/coffee_me/releases/20190617153456/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [5cb27ec0] Command: [ -L /var/www/coffee_me/releases/20190617153456/tmp/pids ]
+ DEBUG [33d31d0b] Finished in 0.232 seconds with exit status 1 (failed).
+ DEBUG [7b207628] Running [ -d /var/www/coffee_me/releases/20190617153456/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [7b207628] Command: [ -d /var/www/coffee_me/releases/20190617153456/tmp/pids ]
+ DEBUG [bde92b03] Finished in 0.230 seconds with exit status 1 (failed).
+  INFO [39f43dd6] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617153456/tmp/pids as hoge@118.27.23.224
+ DEBUG [39f43dd6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617153456/tmp/pids )
+  INFO [464dca5f] Finished in 0.239 seconds with exit status 0 (successful).
+ DEBUG [e3314e22] Running [ -L /var/www/coffee_me/releases/20190617153456/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [e3314e22] Command: [ -L /var/www/coffee_me/releases/20190617153456/tmp/cache ]
+ DEBUG [6db83abc] Finished in 0.252 seconds with exit status 1 (failed).
+ DEBUG [b8af2b45] Running [ -d /var/www/coffee_me/releases/20190617153456/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [b8af2b45] Command: [ -d /var/www/coffee_me/releases/20190617153456/tmp/cache ]
+ DEBUG [7676ff92] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [d237e6e3] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153456/tmp/cache as hoge@118.27.23.224
+ DEBUG [d237e6e3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617153456/tmp/cache )
+  INFO [1161aa95] Finished in 0.319 seconds with exit status 0 (successful).
+  INFO [fb7cb942] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617153456/tmp/cache as hoge@118.27.23.224
+ DEBUG [fb7cb942] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617153456/tmp/cache )
+  INFO [4baf2618] Finished in 0.278 seconds with exit status 0 (successful).
+ DEBUG [aed59591] Running [ -L /var/www/coffee_me/releases/20190617153456/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [aed59591] Command: [ -L /var/www/coffee_me/releases/20190617153456/tmp/sockets ]
+ DEBUG [e4981912] Finished in 0.234 seconds with exit status 1 (failed).
+ DEBUG [660e5aed] Running [ -d /var/www/coffee_me/releases/20190617153456/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [660e5aed] Command: [ -d /var/www/coffee_me/releases/20190617153456/tmp/sockets ]
+ DEBUG [1ca11f56] Finished in 0.224 seconds with exit status 1 (failed).
+  INFO [a15cb630] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617153456/tmp/sockets as hoge@118.27.23.224
+ DEBUG [a15cb630] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617153456/tmp/sockets )
+  INFO [4fa3ebc4] Finished in 0.268 seconds with exit status 0 (successful).
+ DEBUG [92ded52e] Running [ -L /var/www/coffee_me/releases/20190617153456/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [92ded52e] Command: [ -L /var/www/coffee_me/releases/20190617153456/vendor/bundle ]
+ DEBUG [ccb20f15] Finished in 0.245 seconds with exit status 1 (failed).
+ DEBUG [591e894e] Running [ -d /var/www/coffee_me/releases/20190617153456/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [591e894e] Command: [ -d /var/www/coffee_me/releases/20190617153456/vendor/bundle ]
+ DEBUG [e1500940] Finished in 0.228 seconds with exit status 1 (failed).
+  INFO [93ecb406] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617153456/vendor/bundle as hoge@118.27.23.224
+ DEBUG [93ecb406] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617153456/vendor/bundle )
+  INFO [ff49fcce] Finished in 0.226 seconds with exit status 0 (successful).
+ DEBUG [68bdb5d5] Running [ -L /var/www/coffee_me/releases/20190617153456/public/system ] as hoge@118.27.23.224
+ DEBUG [68bdb5d5] Command: [ -L /var/www/coffee_me/releases/20190617153456/public/system ]
+ DEBUG [eaaa144d] Finished in 0.251 seconds with exit status 1 (failed).
+ DEBUG [e4917b84] Running [ -d /var/www/coffee_me/releases/20190617153456/public/system ] as hoge@118.27.23.224
+ DEBUG [e4917b84] Command: [ -d /var/www/coffee_me/releases/20190617153456/public/system ]
+ DEBUG [9865c58f] Finished in 0.223 seconds with exit status 1 (failed).
+  INFO [02b5e24f] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617153456/public/system as hoge@118.27.23.224
+ DEBUG [02b5e24f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617153456/public/system )
+  INFO [0ccad73b] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [73bff622] Running [ -L /var/www/coffee_me/releases/20190617153456/public/assets ] as hoge@118.27.23.224
+ DEBUG [73bff622] Command: [ -L /var/www/coffee_me/releases/20190617153456/public/assets ]
+ DEBUG [fb23cad3] Finished in 0.259 seconds with exit status 1 (failed).
+ DEBUG [4e3ce1a1] Running [ -d /var/www/coffee_me/releases/20190617153456/public/assets ] as hoge@118.27.23.224
+ DEBUG [4e3ce1a1] Command: [ -d /var/www/coffee_me/releases/20190617153456/public/assets ]
+ DEBUG [be5df5e3] Finished in 0.259 seconds with exit status 1 (failed).
+  INFO [b0796a6c] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617153456/public/assets as hoge@118.27.23.224
+ DEBUG [b0796a6c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617153456/public/assets )
+  INFO [84fe0e83] Finished in 0.243 seconds with exit status 0 (successful).
+ DEBUG [4350e948] Running if test ! -d /var/www/coffee_me/releases/20190617153456; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153456'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [4350e948] Command: if test ! -d /var/www/coffee_me/releases/20190617153456; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617153456'" 1>&2; false; fi
+ DEBUG [0e23fd5b] Finished in 0.254 seconds with exit status 0 (successful).
+ DEBUG [5dd3371e] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [5dd3371e] Command: cd /var/www/coffee_me/releases/20190617153456 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [a21717cc] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617153456/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [a21717cc] Finished in 0.370 seconds with exit status 1 (failed).
+  INFO [3ef88b45] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [3ef88b45] Command: cd /var/www/coffee_me/releases/20190617153456 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [2c4a51e5] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617153456/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:41:05 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4d6ec67c] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [4d6ec67c] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [603861f3] Finished in 1.206 seconds with exit status 0 (successful).
+  INFO [4c2b0b69] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [4c2b0b69] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [c1762d72] Finished in 0.264 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 100.0%
+  INFO [26a82b38] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh as hoge@118.27.23.224
+ DEBUG [26a82b38] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh )
+  INFO [9fcc61e8] Finished in 0.355 seconds with exit status 0 (successful).
+  INFO [0f155694] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [0f155694] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [ddf871ab] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [ddf871ab] Finished in 2.339 seconds with exit status 0 (successful).
+  INFO [bbf8aada] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [bbf8aada] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [8c01e390] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [69a6acf8] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [69a6acf8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [8b13a8f5] Finished in 0.298 seconds with exit status 0 (successful).
+  INFO [6cbf285e] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [6cbf285e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [31082d26] Finished in 0.306 seconds with exit status 0 (successful).
+ DEBUG [74e375e0] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [74e375e0] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [8d8f39fb] Finished in 0.271 seconds with exit status 0 (successful).
+ DEBUG [ecfd20cb] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [ecfd20cb] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [c9c06809] Finished in 0.239 seconds with exit status 1 (failed).
+ DEBUG [33bac011] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [33bac011] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [0f5f8075] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [001bed13] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [001bed13] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [126b8cd2] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [4a1a2d4e] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [4a1a2d4e] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [80c7905d] Finished in 0.296 seconds with exit status 0 (successful).
+  INFO [18396ee5] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [18396ee5] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e04e079e] 	Fetching origin
+  INFO [e04e079e] Finished in 2.410 seconds with exit status 0 (successful).
+ DEBUG [09d733c1] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [09d733c1] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [1c4c221b] Finished in 0.213 seconds with exit status 0 (successful).
+  INFO [8c73ebb5] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111 as hoge@118.27.23.224
+ DEBUG [8c73ebb5] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111 )
+  INFO [90ae2fe9] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [f6f7832e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617154111 as hoge@118.27.23.224
+ DEBUG [f6f7832e] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617154111 )
+  INFO [95f114b7] Finished in 0.477 seconds with exit status 0 (successful).
+ DEBUG [6be5a37e] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [6be5a37e] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [ceaf3e0b] Finished in 0.229 seconds with exit status 0 (successful).
+ DEBUG [17cfe555] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [17cfe555] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [bf5437f6] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [bf5437f6] Finished in 0.269 seconds with exit status 0 (successful).
+ DEBUG [734cc9d2] Running if test ! -d /var/www/coffee_me/releases/20190617154111; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617154111'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [734cc9d2] Command: if test ! -d /var/www/coffee_me/releases/20190617154111; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617154111'" 1>&2; false; fi
+ DEBUG [e5e8d094] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [6ea6f8b8] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [6ea6f8b8] Command: cd /var/www/coffee_me/releases/20190617154111 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [36c5d490] Finished in 0.259 seconds with exit status 0 (successful).
+  INFO [70b3aee9] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111/config as hoge@118.27.23.224
+ DEBUG [70b3aee9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111/config )
+  INFO [2a709955] Finished in 0.269 seconds with exit status 0 (successful).
+ DEBUG [10b65d55] Running [ -L /var/www/coffee_me/releases/20190617154111/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [10b65d55] Command: [ -L /var/www/coffee_me/releases/20190617154111/config/secrets.yml ]
+ DEBUG [2698a55f] Finished in 0.244 seconds with exit status 1 (failed).
+ DEBUG [d8f0c7f9] Running [ -f /var/www/coffee_me/releases/20190617154111/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [d8f0c7f9] Command: [ -f /var/www/coffee_me/releases/20190617154111/config/secrets.yml ]
+ DEBUG [539de6e3] Finished in 0.262 seconds with exit status 0 (successful).
+  INFO [032b77f1] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617154111/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [032b77f1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617154111/config/secrets.yml )
+  INFO [54da25ed] Finished in 0.252 seconds with exit status 0 (successful).
+  INFO [21beed5b] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617154111/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [21beed5b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617154111/config/secrets.yml )
+  INFO [7be86cc9] Finished in 0.238 seconds with exit status 0 (successful).
+  INFO [cbc23a8b] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111 /var/www/coffee_me/releases/20190617154111/tmp /var/www/coffee_me/releases/20190617154111/vendor /var/www/coffee_me/releases/20190617154111/public as hoge@118.27.23.224
+ DEBUG [cbc23a8b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617154111 /var/www/coffee_me/releases/20190617154111/tmp /var/www/coffee_me/releases/20190617154111/vendor /var/www/coffee_me/releases/20190617154111/public )
+  INFO [5235efce] Finished in 0.237 seconds with exit status 0 (successful).
+ DEBUG [e07ecd16] Running [ -L /var/www/coffee_me/releases/20190617154111/log ] as hoge@118.27.23.224
+ DEBUG [e07ecd16] Command: [ -L /var/www/coffee_me/releases/20190617154111/log ]
+ DEBUG [833c7095] Finished in 0.230 seconds with exit status 1 (failed).
+ DEBUG [96d31498] Running [ -d /var/www/coffee_me/releases/20190617154111/log ] as hoge@118.27.23.224
+ DEBUG [96d31498] Command: [ -d /var/www/coffee_me/releases/20190617154111/log ]
+ DEBUG [3872ce6a] Finished in 0.241 seconds with exit status 0 (successful).
+  INFO [cfc373b9] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617154111/log as hoge@118.27.23.224
+ DEBUG [cfc373b9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617154111/log )
+  INFO [75316c5d] Finished in 0.250 seconds with exit status 0 (successful).
+  INFO [c52d4e19] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617154111/log as hoge@118.27.23.224
+ DEBUG [c52d4e19] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617154111/log )
+  INFO [2a61b691] Finished in 0.255 seconds with exit status 0 (successful).
+ DEBUG [d9d41a83] Running [ -L /var/www/coffee_me/releases/20190617154111/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [d9d41a83] Command: [ -L /var/www/coffee_me/releases/20190617154111/tmp/pids ]
+ DEBUG [f52e7c4b] Finished in 0.240 seconds with exit status 1 (failed).
+ DEBUG [76bd8aca] Running [ -d /var/www/coffee_me/releases/20190617154111/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [76bd8aca] Command: [ -d /var/www/coffee_me/releases/20190617154111/tmp/pids ]
+ DEBUG [f7ba8127] Finished in 0.256 seconds with exit status 1 (failed).
+  INFO [91a42b70] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617154111/tmp/pids as hoge@118.27.23.224
+ DEBUG [91a42b70] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617154111/tmp/pids )
+  INFO [9524c702] Finished in 0.242 seconds with exit status 0 (successful).
+ DEBUG [b417cd93] Running [ -L /var/www/coffee_me/releases/20190617154111/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [b417cd93] Command: [ -L /var/www/coffee_me/releases/20190617154111/tmp/cache ]
+ DEBUG [4edbb566] Finished in 0.236 seconds with exit status 1 (failed).
+ DEBUG [918802f4] Running [ -d /var/www/coffee_me/releases/20190617154111/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [918802f4] Command: [ -d /var/www/coffee_me/releases/20190617154111/tmp/cache ]
+ DEBUG [00b6a2e2] Finished in 0.223 seconds with exit status 0 (successful).
+  INFO [8f31bb59] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617154111/tmp/cache as hoge@118.27.23.224
+ DEBUG [8f31bb59] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617154111/tmp/cache )
+  INFO [a29248f2] Finished in 0.303 seconds with exit status 0 (successful).
+  INFO [98972b6c] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617154111/tmp/cache as hoge@118.27.23.224
+ DEBUG [98972b6c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617154111/tmp/cache )
+  INFO [c7e1525d] Finished in 0.254 seconds with exit status 0 (successful).
+ DEBUG [df7376b1] Running [ -L /var/www/coffee_me/releases/20190617154111/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [df7376b1] Command: [ -L /var/www/coffee_me/releases/20190617154111/tmp/sockets ]
+ DEBUG [11f85149] Finished in 0.248 seconds with exit status 1 (failed).
+ DEBUG [6dc96bcc] Running [ -d /var/www/coffee_me/releases/20190617154111/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [6dc96bcc] Command: [ -d /var/www/coffee_me/releases/20190617154111/tmp/sockets ]
+ DEBUG [0dedf605] Finished in 0.231 seconds with exit status 1 (failed).
+  INFO [578ab15e] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617154111/tmp/sockets as hoge@118.27.23.224
+ DEBUG [578ab15e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617154111/tmp/sockets )
+  INFO [4e8a7d29] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [056fd2e4] Running [ -L /var/www/coffee_me/releases/20190617154111/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [056fd2e4] Command: [ -L /var/www/coffee_me/releases/20190617154111/vendor/bundle ]
+ DEBUG [d19f6236] Finished in 0.260 seconds with exit status 1 (failed).
+ DEBUG [c0c362c5] Running [ -d /var/www/coffee_me/releases/20190617154111/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [c0c362c5] Command: [ -d /var/www/coffee_me/releases/20190617154111/vendor/bundle ]
+ DEBUG [03b9282e] Finished in 0.256 seconds with exit status 1 (failed).
+  INFO [d2884e7f] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617154111/vendor/bundle as hoge@118.27.23.224
+ DEBUG [d2884e7f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617154111/vendor/bundle )
+  INFO [7dcdac05] Finished in 0.243 seconds with exit status 0 (successful).
+ DEBUG [c8d70112] Running [ -L /var/www/coffee_me/releases/20190617154111/public/system ] as hoge@118.27.23.224
+ DEBUG [c8d70112] Command: [ -L /var/www/coffee_me/releases/20190617154111/public/system ]
+ DEBUG [44266c30] Finished in 0.243 seconds with exit status 1 (failed).
+ DEBUG [746666a0] Running [ -d /var/www/coffee_me/releases/20190617154111/public/system ] as hoge@118.27.23.224
+ DEBUG [746666a0] Command: [ -d /var/www/coffee_me/releases/20190617154111/public/system ]
+ DEBUG [2fa5f6e4] Finished in 0.240 seconds with exit status 1 (failed).
+  INFO [cf6df0b3] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617154111/public/system as hoge@118.27.23.224
+ DEBUG [cf6df0b3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617154111/public/system )
+  INFO [b4d12421] Finished in 0.254 seconds with exit status 0 (successful).
+ DEBUG [970e0c00] Running [ -L /var/www/coffee_me/releases/20190617154111/public/assets ] as hoge@118.27.23.224
+ DEBUG [970e0c00] Command: [ -L /var/www/coffee_me/releases/20190617154111/public/assets ]
+ DEBUG [6eb119a5] Finished in 0.270 seconds with exit status 1 (failed).
+ DEBUG [0c110a0e] Running [ -d /var/www/coffee_me/releases/20190617154111/public/assets ] as hoge@118.27.23.224
+ DEBUG [0c110a0e] Command: [ -d /var/www/coffee_me/releases/20190617154111/public/assets ]
+ DEBUG [2462aeb9] Finished in 0.239 seconds with exit status 1 (failed).
+  INFO [bc00d8ac] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617154111/public/assets as hoge@118.27.23.224
+ DEBUG [bc00d8ac] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617154111/public/assets )
+  INFO [f71cc1eb] Finished in 0.265 seconds with exit status 0 (successful).
+ DEBUG [b84bd54d] Running if test ! -d /var/www/coffee_me/releases/20190617154111; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617154111'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [b84bd54d] Command: if test ! -d /var/www/coffee_me/releases/20190617154111; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617154111'" 1>&2; false; fi
+ DEBUG [41e71b9a] Finished in 0.262 seconds with exit status 0 (successful).
+ DEBUG [b7715cbc] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [b7715cbc] Command: cd /var/www/coffee_me/releases/20190617154111 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [699dfe82] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617154111/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [699dfe82] Finished in 0.405 seconds with exit status 1 (failed).
+  INFO [4ef458f0] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [4ef458f0] Command: cd /var/www/coffee_me/releases/20190617154111 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [f1ab9102] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617154111/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-18 00:54:25 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [391e8051] Running [ -d $HOME/.rbenv/versions/2.6.3 ] as hoge@118.27.23.224
+ DEBUG [391e8051] Command: [ -d $HOME/.rbenv/versions/2.6.3 ]
+ DEBUG [8daa17dd] Finished in 0.964 seconds with exit status 0 (successful).
+  INFO [ad2a83ca] Running /usr/bin/env mkdir -p /tmp as hoge@118.27.23.224
+ DEBUG [ad2a83ca] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /tmp )
+  INFO [f15fcc33] Finished in 0.254 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 0.0%
+  INFO Uploading /tmp/git-ssh-coffee_me-production-taichi.sh 100.0%
+  INFO [3b38cb44] Running /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh as hoge@118.27.23.224
+ DEBUG [3b38cb44] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env chmod 700 /tmp/git-ssh-coffee_me-production-taichi.sh )
+  INFO [e3df4a82] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [32e731aa] Running /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD as hoge@118.27.23.224
+ DEBUG [32e731aa] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git ls-remote git@github.com:MatsubayashiTaichi/coffee_me.git HEAD )
+ DEBUG [b4a743ec] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e	HEAD
+  INFO [b4a743ec] Finished in 2.412 seconds with exit status 0 (successful).
+  INFO [d225b099] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases as hoge@118.27.23.224
+ DEBUG [d225b099] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared /var/www/coffee_me/releases )
+  INFO [6b718f71] Finished in 0.235 seconds with exit status 0 (successful).
+  INFO [4a57e872] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets as hoge@118.27.23.224
+ DEBUG [4a57e872] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/log /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/shared/public/system /var/www/coffee_me/shared/public/assets )
+  INFO [a1d55dcc] Finished in 0.211 seconds with exit status 0 (successful).
+  INFO [2b05f37b] Running /usr/bin/env mkdir -p /var/www/coffee_me/shared/config as hoge@118.27.23.224
+ DEBUG [2b05f37b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/shared/config )
+  INFO [4d89f6b7] Finished in 0.242 seconds with exit status 0 (successful).
+ DEBUG [6e655e44] Running [ -f /var/www/coffee_me/shared/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [6e655e44] Command: [ -f /var/www/coffee_me/shared/config/secrets.yml ]
+ DEBUG [73e40acc] Finished in 0.216 seconds with exit status 0 (successful).
+ DEBUG [60883487] Running [ -f /var/www/coffee_me/current/REVISION ] as hoge@118.27.23.224
+ DEBUG [60883487] Command: [ -f /var/www/coffee_me/current/REVISION ]
+ DEBUG [9c12dbb7] Finished in 0.237 seconds with exit status 1 (failed).
+ DEBUG [5ab6dee2] Running [ -f /var/www/coffee_me/repo/HEAD ] as hoge@118.27.23.224
+ DEBUG [5ab6dee2] Command: [ -f /var/www/coffee_me/repo/HEAD ]
+ DEBUG [5783dc2d] Finished in 0.257 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/coffee_me/repo
+ DEBUG [256e2b9b] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [256e2b9b] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [ff6d8fb1] Finished in 0.253 seconds with exit status 0 (successful).
+  INFO [01ab8676] Running /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git as hoge@118.27.23.224
+ DEBUG [01ab8676] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git remote set-url origin git@github.com:MatsubayashiTaichi/coffee_me.git )
+  INFO [6d3276c9] Finished in 0.280 seconds with exit status 0 (successful).
+  INFO [c3c67803] Running /usr/bin/env git remote update --prune as hoge@118.27.23.224
+ DEBUG [c3c67803] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [12ef6ed2] 	Fetching origin
+  INFO [12ef6ed2] Finished in 2.407 seconds with exit status 0 (successful).
+ DEBUG [20b2d7cf] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [20b2d7cf] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [0e0faefe] Finished in 0.218 seconds with exit status 0 (successful).
+  INFO [ea974625] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430 as hoge@118.27.23.224
+ DEBUG [ea974625] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430 )
+  INFO [aab2c054] Finished in 0.272 seconds with exit status 0 (successful).
+  INFO [a94414a4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617155430 as hoge@118.27.23.224
+ DEBUG [a94414a4] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/coffee_me/releases/20190617155430 )
+  INFO [2bdcc22a] Finished in 0.471 seconds with exit status 0 (successful).
+ DEBUG [e56ebb5f] Running if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [e56ebb5f] Command: if test ! -d /var/www/coffee_me/repo; then echo "Directory does not exist '/var/www/coffee_me/repo'" 1>&2; false; fi
+ DEBUG [0363e065] Finished in 0.229 seconds with exit status 0 (successful).
+ DEBUG [5773c66a] Running /usr/bin/env git rev-list --max-count=1 master as hoge@118.27.23.224
+ DEBUG [5773c66a] Command: cd /var/www/coffee_me/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-coffee_me-production-taichi.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ffe43a16] 	b8e406637fb1dda16a0c02bed0e28c196efdb31e
+ DEBUG [ffe43a16] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [d63ac941] Running if test ! -d /var/www/coffee_me/releases/20190617155430; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617155430'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [d63ac941] Command: if test ! -d /var/www/coffee_me/releases/20190617155430; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617155430'" 1>&2; false; fi
+ DEBUG [dc0497ec] Finished in 0.247 seconds with exit status 0 (successful).
+  INFO [e559c196] Running /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION as hoge@118.27.23.224
+ DEBUG [e559c196] Command: cd /var/www/coffee_me/releases/20190617155430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env echo "b8e406637fb1dda16a0c02bed0e28c196efdb31e" > REVISION )
+  INFO [069534e6] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO [d29ee704] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430/config as hoge@118.27.23.224
+ DEBUG [d29ee704] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430/config )
+  INFO [7e5ab3ba] Finished in 0.274 seconds with exit status 0 (successful).
+ DEBUG [549587f4] Running [ -L /var/www/coffee_me/releases/20190617155430/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [549587f4] Command: [ -L /var/www/coffee_me/releases/20190617155430/config/secrets.yml ]
+ DEBUG [101fe67e] Finished in 0.225 seconds with exit status 1 (failed).
+ DEBUG [08e413e4] Running [ -f /var/www/coffee_me/releases/20190617155430/config/secrets.yml ] as hoge@118.27.23.224
+ DEBUG [08e413e4] Command: [ -f /var/www/coffee_me/releases/20190617155430/config/secrets.yml ]
+ DEBUG [bdf7fbb9] Finished in 0.257 seconds with exit status 0 (successful).
+  INFO [7953c169] Running /usr/bin/env rm /var/www/coffee_me/releases/20190617155430/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [7953c169] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm /var/www/coffee_me/releases/20190617155430/config/secrets.yml )
+  INFO [c9b0d16b] Finished in 0.257 seconds with exit status 0 (successful).
+  INFO [9f8cee3c] Running /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617155430/config/secrets.yml as hoge@118.27.23.224
+ DEBUG [9f8cee3c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/config/secrets.yml /var/www/coffee_me/releases/20190617155430/config/secrets.yml )
+  INFO [f5df233b] Finished in 0.242 seconds with exit status 0 (successful).
+  INFO [32daa760] Running /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430 /var/www/coffee_me/releases/20190617155430/tmp /var/www/coffee_me/releases/20190617155430/vendor /var/www/coffee_me/releases/20190617155430/public as hoge@118.27.23.224
+ DEBUG [32daa760] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env mkdir -p /var/www/coffee_me/releases/20190617155430 /var/www/coffee_me/releases/20190617155430/tmp /var/www/coffee_me/releases/20190617155430/vendor /var/www/coffee_me/releases/20190617155430/public )
+  INFO [dc31eb22] Finished in 0.271 seconds with exit status 0 (successful).
+ DEBUG [6f9ecec6] Running [ -L /var/www/coffee_me/releases/20190617155430/log ] as hoge@118.27.23.224
+ DEBUG [6f9ecec6] Command: [ -L /var/www/coffee_me/releases/20190617155430/log ]
+ DEBUG [fa2dce76] Finished in 0.240 seconds with exit status 1 (failed).
+ DEBUG [389db7bf] Running [ -d /var/www/coffee_me/releases/20190617155430/log ] as hoge@118.27.23.224
+ DEBUG [389db7bf] Command: [ -d /var/www/coffee_me/releases/20190617155430/log ]
+ DEBUG [c0ade8d5] Finished in 0.253 seconds with exit status 0 (successful).
+  INFO [6756d5a6] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617155430/log as hoge@118.27.23.224
+ DEBUG [6756d5a6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617155430/log )
+  INFO [e922eb18] Finished in 0.238 seconds with exit status 0 (successful).
+  INFO [0a2e0c73] Running /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617155430/log as hoge@118.27.23.224
+ DEBUG [0a2e0c73] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/log /var/www/coffee_me/releases/20190617155430/log )
+  INFO [d010f702] Finished in 0.269 seconds with exit status 0 (successful).
+ DEBUG [1390620f] Running [ -L /var/www/coffee_me/releases/20190617155430/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [1390620f] Command: [ -L /var/www/coffee_me/releases/20190617155430/tmp/pids ]
+ DEBUG [e855e484] Finished in 0.346 seconds with exit status 1 (failed).
+ DEBUG [8dbe5443] Running [ -d /var/www/coffee_me/releases/20190617155430/tmp/pids ] as hoge@118.27.23.224
+ DEBUG [8dbe5443] Command: [ -d /var/www/coffee_me/releases/20190617155430/tmp/pids ]
+ DEBUG [1a12a41d] Finished in 0.254 seconds with exit status 1 (failed).
+  INFO [4bc489b4] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617155430/tmp/pids as hoge@118.27.23.224
+ DEBUG [4bc489b4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/pids /var/www/coffee_me/releases/20190617155430/tmp/pids )
+  INFO [89948208] Finished in 0.244 seconds with exit status 0 (successful).
+ DEBUG [8379ac1c] Running [ -L /var/www/coffee_me/releases/20190617155430/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [8379ac1c] Command: [ -L /var/www/coffee_me/releases/20190617155430/tmp/cache ]
+ DEBUG [cc1cf1bf] Finished in 0.260 seconds with exit status 1 (failed).
+ DEBUG [995b1178] Running [ -d /var/www/coffee_me/releases/20190617155430/tmp/cache ] as hoge@118.27.23.224
+ DEBUG [995b1178] Command: [ -d /var/www/coffee_me/releases/20190617155430/tmp/cache ]
+ DEBUG [5ace9b17] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [fdab220f] Running /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617155430/tmp/cache as hoge@118.27.23.224
+ DEBUG [fdab220f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env rm -rf /var/www/coffee_me/releases/20190617155430/tmp/cache )
+  INFO [78cd04de] Finished in 0.315 seconds with exit status 0 (successful).
+  INFO [48ba76d6] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617155430/tmp/cache as hoge@118.27.23.224
+ DEBUG [48ba76d6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/cache /var/www/coffee_me/releases/20190617155430/tmp/cache )
+  INFO [73666c0f] Finished in 0.224 seconds with exit status 0 (successful).
+ DEBUG [7069890d] Running [ -L /var/www/coffee_me/releases/20190617155430/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [7069890d] Command: [ -L /var/www/coffee_me/releases/20190617155430/tmp/sockets ]
+ DEBUG [3efd742c] Finished in 0.212 seconds with exit status 1 (failed).
+ DEBUG [b2d2d05c] Running [ -d /var/www/coffee_me/releases/20190617155430/tmp/sockets ] as hoge@118.27.23.224
+ DEBUG [b2d2d05c] Command: [ -d /var/www/coffee_me/releases/20190617155430/tmp/sockets ]
+ DEBUG [3528dc3f] Finished in 0.261 seconds with exit status 1 (failed).
+  INFO [cf4e17d7] Running /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617155430/tmp/sockets as hoge@118.27.23.224
+ DEBUG [cf4e17d7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/tmp/sockets /var/www/coffee_me/releases/20190617155430/tmp/sockets )
+  INFO [b1042c48] Finished in 0.231 seconds with exit status 0 (successful).
+ DEBUG [3308fc22] Running [ -L /var/www/coffee_me/releases/20190617155430/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [3308fc22] Command: [ -L /var/www/coffee_me/releases/20190617155430/vendor/bundle ]
+ DEBUG [19ae266e] Finished in 0.214 seconds with exit status 1 (failed).
+ DEBUG [571b6a32] Running [ -d /var/www/coffee_me/releases/20190617155430/vendor/bundle ] as hoge@118.27.23.224
+ DEBUG [571b6a32] Command: [ -d /var/www/coffee_me/releases/20190617155430/vendor/bundle ]
+ DEBUG [b5df98c5] Finished in 0.238 seconds with exit status 1 (failed).
+  INFO [0a21cc06] Running /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617155430/vendor/bundle as hoge@118.27.23.224
+ DEBUG [0a21cc06] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/vendor/bundle /var/www/coffee_me/releases/20190617155430/vendor/bundle )
+  INFO [675a6b9c] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [5a24c3de] Running [ -L /var/www/coffee_me/releases/20190617155430/public/system ] as hoge@118.27.23.224
+ DEBUG [5a24c3de] Command: [ -L /var/www/coffee_me/releases/20190617155430/public/system ]
+ DEBUG [ee14f7b1] Finished in 0.275 seconds with exit status 1 (failed).
+ DEBUG [f996060c] Running [ -d /var/www/coffee_me/releases/20190617155430/public/system ] as hoge@118.27.23.224
+ DEBUG [f996060c] Command: [ -d /var/www/coffee_me/releases/20190617155430/public/system ]
+ DEBUG [50a8d396] Finished in 0.263 seconds with exit status 1 (failed).
+  INFO [1ea7ebf0] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617155430/public/system as hoge@118.27.23.224
+ DEBUG [1ea7ebf0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/system /var/www/coffee_me/releases/20190617155430/public/system )
+  INFO [5542e61a] Finished in 0.251 seconds with exit status 0 (successful).
+ DEBUG [5c7c646b] Running [ -L /var/www/coffee_me/releases/20190617155430/public/assets ] as hoge@118.27.23.224
+ DEBUG [5c7c646b] Command: [ -L /var/www/coffee_me/releases/20190617155430/public/assets ]
+ DEBUG [934c4d90] Finished in 0.234 seconds with exit status 1 (failed).
+ DEBUG [fa42607d] Running [ -d /var/www/coffee_me/releases/20190617155430/public/assets ] as hoge@118.27.23.224
+ DEBUG [fa42607d] Command: [ -d /var/www/coffee_me/releases/20190617155430/public/assets ]
+ DEBUG [455fe701] Finished in 0.258 seconds with exit status 1 (failed).
+  INFO [1b0d4d6e] Running /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617155430/public/assets as hoge@118.27.23.224
+ DEBUG [1b0d4d6e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; /usr/bin/env ln -s /var/www/coffee_me/shared/public/assets /var/www/coffee_me/releases/20190617155430/public/assets )
+  INFO [28dd220a] Finished in 0.243 seconds with exit status 0 (successful).
+ DEBUG [d1a5a75d] Running if test ! -d /var/www/coffee_me/releases/20190617155430; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617155430'" 1>&2; false; fi as hoge@118.27.23.224
+ DEBUG [d1a5a75d] Command: if test ! -d /var/www/coffee_me/releases/20190617155430; then echo "Directory does not exist '/var/www/coffee_me/releases/20190617155430'" 1>&2; false; fi
+ DEBUG [10af24fb] Finished in 0.238 seconds with exit status 0 (successful).
+ DEBUG [30138351] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle as hoge@118.27.23.224
+ DEBUG [30138351] Command: cd /var/www/coffee_me/releases/20190617155430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/coffee_me/shared/bundle )
+ DEBUG [d0ee2ac7] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617155430/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+ DEBUG [d0ee2ac7] 		from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
+ DEBUG [d0ee2ac7] Finished in 0.411 seconds with exit status 1 (failed).
+  INFO [46a155df] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet as hoge@118.27.23.224
+ DEBUG [46a155df] Command: cd /var/www/coffee_me/releases/20190617155430 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.6.3" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/coffee_me/shared/bundle --jobs 4 --without development test --deployment --quiet )
+ DEBUG [72b344f2] 	/home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:283:in `find_spec_for_exe': Could not find 'bundler' (2.0.1) required by your /var/www/coffee_me/releases/20190617155430/Gemfile.lock. (Gem::GemNotFoundException)
+To update to the latest version installed on your system, run `bundle update --bundler`.
+To install the missing version, run `gem install bundler:2.0.1`
+	from /home/hoge/.rbenv/versions/2.6.3/lib/ruby/2.6.0/rubygems.rb:302:in `activate_bin_path'
+	from /home/hoge/.rbenv/versions/2.6.3/bin/bundle:23:in `<main>'
