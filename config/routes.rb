@@ -12,7 +12,8 @@ Rails.application.routes.draw do
 
   get "result/:id" => "analysis#result"
 
-  get "home/top" => "home#top"
+#  get "home/top" => "home#top"
+  get "/" => "home#top"  
   get "home/buy" => "home#buy"
   get "home/sell" => "home#sell"
 

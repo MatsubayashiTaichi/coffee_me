@@ -55,7 +55,13 @@ set :keep_releases, 5
 
 # rubyのバージョン
 # rbenvで設定したサーバー側のrubyのバージョン
-set :rbenv_ruby, '2.6.3'
+
+set :rbenv_type, :user
+set :rbenv_ruby, '2.5.3'
+#set :rbenv_ruby, '2.5.1'
+set :rbenv_path, '/home/hoge/.rbenv'
+
+
 
 # 出力するログのレベル。
 set :log_level, :debug

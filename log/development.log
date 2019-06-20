@@ -12353,3 +12353,541 @@ Processing by AnalysisController#question_1 as HTML
 Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-06-18 19:12:55 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 39ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-19 21:36:50 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 32ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/top" for ::1 at 2019-06-19 21:36:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/top"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (14.8ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (167.0ms)
+Started GET "/question_1" for ::1 at 2019-06-19 21:37:08 +0900
+Processing by AnalysisController#question_1 as HTML
+  Rendering analysis/question_1.html.erb within layouts/application
+  Rendered analysis/question_1.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 929ms (Views: 925.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question" for ::1 at 2019-06-19 21:37:11 +0900
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question_1" for ::1 at 2019-06-19 21:37:15 +0900
+Processing by AnalysisController#question_1 as HTML
+  Rendering analysis/question_1.html.erb within layouts/application
+  Rendered analysis/question_1.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question_1" for ::1 at 2019-06-19 21:37:25 +0900
+Processing by AnalysisController#question_1 as HTML
+  Rendering analysis/question_1.html.erb within layouts/application
+  Rendered analysis/question_1.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_1" for ::1 at 2019-06-19 21:37:35 +0900
+Processing by AnalysisController#create_1 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tcZvI7hn2FQF9DPsQ6djh4ZsD1ojSAeQ1jBOghuEKQgYzXmsos9mZttfxZcfQXrUqhTMpNjYuTk3iDBJQfU2mQ==", "name"=>"taichi"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "taichi"], ["created_at", "2019-06-19 12:37:35.144574"], ["updated_at", "2019-06-19 12:37:35.144574"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "personals" ("point5", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["point5", 55.0], ["created_at", "2019-06-19 12:37:35.160439"], ["updated_at", "2019-06-19 12:37:35.160439"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_2/55
+Completed 302 Found in 30ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/question_2/55" for ::1 at 2019-06-19 21:37:35 +0900
+Processing by AnalysisController#question_2 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_2.html.erb within layouts/application
+  Rendered analysis/question_2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/create_2/55" for ::1 at 2019-06-19 21:37:46 +0900
+Processing by AnalysisController#create_2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OGCIyJNTBxI0iD+B+zDxVDltJnM3akXofUD5Apm/nheVa55Hifu5IOojyfqn1ugHFRXljcz6+0Gc+IfJw86Bhg==", "age"=>"870才", "id"=>"55"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "age" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["age", "870才"], ["updated_at", "2019-06-19 12:37:46.891874"], ["id", 55]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_3/55
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/question_3/55" for ::1 at 2019-06-19 21:37:46 +0900
+Processing by AnalysisController#question_3 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_3.html.erb within layouts/application
+  Rendered analysis/question_3.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/create_3/55" for ::1 at 2019-06-19 21:38:08 +0900
+Processing by AnalysisController#create_3 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NG1qms1FJoZQp3ZvX1/8xV9774s73bbfa1o3KVNrbVGZZnwV1+2YtI4MgBQDueWWcwMsdcBNCHaK4kniCRpywA==", "check"=>"10", "x"=>"66", "y"=>"53", "id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."point5" = ? LIMIT ?[0m  [["point5", 55.0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "personals" SET "point1" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point1", 10.0], ["updated_at", "2019-06-19 12:38:08.703608"], ["id", 55]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_4/55
+Completed 302 Found in 7ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/question_4/55" for ::1 at 2019-06-19 21:38:08 +0900
+Processing by AnalysisController#question_4 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_4.html.erb within layouts/application
+  Rendered analysis/question_4.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/create_4/55" for ::1 at 2019-06-19 21:38:11 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zhgXuiOCUUf2mu13hCHd41yn1GlnwkBWgcX8f1kZQ+RjEwE1OSrvdSgxGwzYx8SwcN8Xl5xS/v9gfYK0A2hcdQ==", "check"=>"80", "x"=>"66", "y"=>"55", "id"=>"55"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.4ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "personals" SET "point2" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point2", 80.0], ["updated_at", "2019-06-19 12:38:11.956803"], ["id", 55]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/55
+Completed 302 Found in 8ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/question_5/55" for ::1 at 2019-06-19 21:38:11 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/create_5/55" for ::1 at 2019-06-19 21:38:14 +0900
+Processing by AnalysisController#create_5 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EYcYilHJ1FTkgeI49DkqELTsLyi2VaN3XI7OYvQL/8y8jA4FS2FqZjoqFEOo3zNDmJTs1k3FHd69NrCprnrgXQ==", "check"=>"-10", "x"=>"64", "y"=>"51", "id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."point5" = ? LIMIT ?[0m  [["point5", 55.0], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "personals" SET "point3" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point3", -10.0], ["updated_at", "2019-06-19 12:38:14.490373"], ["id", 55]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_6/55
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/question_6/55" for ::1 at 2019-06-19 21:38:14 +0900
+Processing by AnalysisController#question_6 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_6.html.erb within layouts/application
+  Rendered analysis/question_6.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_4/55" for ::1 at 2019-06-19 21:38:34 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zhgXuiOCUUf2mu13hCHd41yn1GlnwkBWgcX8f1kZQ+RjEwE1OSrvdSgxGwzYx8SwcN8Xl5xS/v9gfYK0A2hcdQ==", "check"=>"80", "x"=>"70", "y"=>"51", "id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/55
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/question_5/55" for ::1 at 2019-06-19 21:38:34 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_5/55" for ::1 at 2019-06-19 21:38:42 +0900
+Processing by AnalysisController#create_5 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UbcgbtNCHM1hBs/PV5z26m0FnuuhLBOogBVnFr0NoGT8vDbhyeqi/7+tObQLeu+5QX1dFVq8rQFhrRnd53y/9Q==", "check"=>"-10", "x"=>"56", "y"=>"50", "id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."point5" = ? LIMIT ?[0m  [["point5", 55.0], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_6/55
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/question_6/55" for ::1 at 2019-06-19 21:38:42 +0900
+Processing by AnalysisController#question_6 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_6.html.erb within layouts/application
+  Rendered analysis/question_6.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_4/55" for ::1 at 2019-06-19 21:38:48 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zhgXuiOCUUf2mu13hCHd41yn1GlnwkBWgcX8f1kZQ+RjEwE1OSrvdSgxGwzYx8SwcN8Xl5xS/v9gfYK0A2hcdQ==", "check"=>"80", "x"=>"64", "y"=>"70", "id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/55
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/question_5/55" for ::1 at 2019-06-19 21:38:48 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_4/55" for ::1 at 2019-06-19 21:38:52 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zhgXuiOCUUf2mu13hCHd41yn1GlnwkBWgcX8f1kZQ+RjEwE1OSrvdSgxGwzYx8SwcN8Xl5xS/v9gfYK0A2hcdQ==", "check"=>"80", "x"=>"72", "y"=>"56", "id"=>"55"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/55
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/question_5/55" for ::1 at 2019-06-19 21:38:52 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_4/55" for ::1 at 2019-06-19 21:38:56 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zhgXuiOCUUf2mu13hCHd41yn1GlnwkBWgcX8f1kZQ+RjEwE1OSrvdSgxGwzYx8SwcN8Xl5xS/v9gfYK0A2hcdQ==", "check"=>"80", "x"=>"58", "y"=>"39", "id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/55
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/question_5/55" for ::1 at 2019-06-19 21:38:56 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"55"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 55], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/question" for ::1 at 2019-06-20 01:36:21 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 515ms (Views: 487.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question" for ::1 at 2019-06-20 01:36:22 +0900
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 154ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question_1" for ::1 at 2019-06-20 01:36:24 +0900
+Processing by AnalysisController#question_1 as HTML
+  Rendering analysis/question_1.html.erb within layouts/application
+  Rendered analysis/question_1.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 86ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_1" for ::1 at 2019-06-20 01:36:32 +0900
+Processing by AnalysisController#create_1 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pHikb/empsHpXXSljGnDx35s0EhTc1sLNLmpRUnP1HEJc7Lg7Q4Y8zf2gt7Qj9qUUhQTtqjj5aLVAdeOE77L4A==", "name"=>"saddy"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "saddy"], ["created_at", "2019-06-19 16:36:32.830921"], ["updated_at", "2019-06-19 16:36:32.830921"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "personals" ("point5", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["point5", 56.0], ["created_at", "2019-06-19 16:36:32.847655"], ["updated_at", "2019-06-19 16:36:32.847655"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_2/56
+Completed 302 Found in 33ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/question_2/56" for ::1 at 2019-06-20 01:36:32 +0900
+Processing by AnalysisController#question_2 as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  Rendering analysis/question_2.html.erb within layouts/application
+  Rendered analysis/question_2.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/create_2/56" for ::1 at 2019-06-20 01:36:44 +0900
+Processing by AnalysisController#create_2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Npg9g+xHH1eqyTBIf9N2cEcVq3Feg0P30uFoOgwFtCObkysM9u+hZXRixjMjNW8ja21oj6UT/V4zWRbxVnSrsg==", "age"=>"24才", "id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "age" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["age", "24才"], ["updated_at", "2019-06-19 16:36:44.755622"], ["id", 56]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_3/56
+Completed 302 Found in 6ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/question_3/56" for ::1 at 2019-06-20 01:36:44 +0900
+Processing by AnalysisController#question_3 as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  Rendering analysis/question_3.html.erb within layouts/application
+  Rendered analysis/question_3.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 27.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/create_3/56" for ::1 at 2019-06-20 01:36:53 +0900
+Processing by AnalysisController#create_3 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VvaFH2rRn0kKibWc2NWIxafCtGoonCmmj66Kwe0htS77/ZOQcHkhe9QiQ+eEM5GWi7p3lNMMlw9uFvQKt1Cqvw==", "check"=>"10", "x"=>"42", "y"=>"55", "id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."point5" = ? LIMIT ?[0m  [["point5", 56.0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "personals" SET "point1" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point1", 10.0], ["updated_at", "2019-06-19 16:36:53.566799"], ["id", 56]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_4/56
+Completed 302 Found in 6ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/question_4/56" for ::1 at 2019-06-20 01:36:53 +0900
+Processing by AnalysisController#question_4 as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  Rendering analysis/question_4.html.erb within layouts/application
+  Rendered analysis/question_4.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/create_4/56" for ::1 at 2019-06-20 01:36:55 +0900
+Processing by AnalysisController#create_4 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8zesTFJHAL3Z6OyveTocorib+2k86EGlwHmrJFqaJYRePLrDSO++jwdDGtQl3AXxlOM4l8d4/wwhwdXvAOs6FQ==", "check"=>"80", "x"=>"72", "y"=>"39", "id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.2ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "personals" SET "point2" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point2", 80.0], ["updated_at", "2019-06-19 16:36:55.665692"], ["id", 56]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_5/56
+Completed 302 Found in 8ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/question_5/56" for ::1 at 2019-06-20 01:36:55 +0900
+Processing by AnalysisController#question_5 as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  Rendering analysis/question_5.html.erb within layouts/application
+  Rendered analysis/question_5.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/create_5/56" for ::1 at 2019-06-20 01:36:57 +0900
+Processing by AnalysisController#create_5 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bnGb9TLGBgM11XbC3n9JngmRryR6WLQh3Zn0FVq+yBTDeo16KG64Met+gLmCmVDNJels2oHICog8IYreAM/XhQ==", "check"=>"-10", "x"=>"72", "y"=>"39", "id"=>"56"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[36mPersonal Load (0.1ms)[0m  [1m[34mSELECT  "personals".* FROM "personals" WHERE "personals"."point5" = ? LIMIT ?[0m  [["point5", 56.0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "personals" SET "point3" = ?, "updated_at" = ? WHERE "personals"."id" = ?[0m  [["point3", -10.0], ["updated_at", "2019-06-19 16:36:57.177238"], ["id", 56]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/question_6/56
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/question_6/56" for ::1 at 2019-06-20 01:36:57 +0900
+Processing by AnalysisController#question_6 as HTML
+  Parameters: {"id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 56], ["LIMIT", 1]]
+  Rendering analysis/question_6.html.erb within layouts/application
+  Rendered analysis/question_6.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/top" for ::1 at 2019-06-20 01:37:15 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered home/top.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-20 16:28:55 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 31ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question" for ::1 at 2019-06-20 16:30:04 +0900
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 316ms (Views: 311.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/question" for ::1 at 2019-06-20 16:47:37 +0900
+Started GET "/home/top" for ::1 at 2019-06-20 16:47:47 +0900
+Started GET "/home/top" for ::1 at 2019-06-20 16:47:47 +0900
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/home/top"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/home/top"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (22.3ms)
+  Rendered collection of /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (3.9ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.4ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.1ms)
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (257.7ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (232.4ms)
+Started GET "/" for ::1 at 2019-06-20 16:47:50 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered home/top.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 42ms (Views: 31.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/question" for ::1 at 2019-06-20 16:58:56 +0900
+Processing by AnalysisController#question as HTML
+  Rendering analysis/question.html.erb within layouts/application
+  Rendered analysis/question.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
