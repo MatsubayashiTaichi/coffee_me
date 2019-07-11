@@ -1,16 +1,22 @@
-<%= form_tag("/create_1") do %>
-  <% content_for(:body_attributes) do %>
-    data-turbolinks="false"
+  <%= form_tag("/create_1") do %>
+
+    <% content_for(:body_attributes) do %>
+<!--      data-turbolinks="false"  -->
+    <% end %>
+
+       <div class="bg02 fixed-bg">
+         <div class="question-1-1">
+          <div class="hello-1">
+            <p>Hello</p>
+          </div>
+
+          <div class="hello-2">
+            <p>What is your name?</p>
+            <input type="text" name="name" class="hello-3">
+            <input type="submit" value="→" class="hello-4">
+          </div>
+        </div>
+       </div>
+
+
   <% end %>
-  <div class="hello-1">
-    <p>Hello</p>
-  </div>
-
-  <div class="hello-2">
-    <p>What is your name?</p>
-    <input type="text" name="name" class="hello-3">
-    <input type="submit" value="→" class="hello-4">
-  </div>
-
-
-<% end %>

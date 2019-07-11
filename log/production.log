@@ -1,0 +1,55 @@
+W, [2019-06-20T20:02:52.412072 #8815]  WARN -- : DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /Users/taichi/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.0.7.2/lib/rails/application.rb:246)
+I, [2019-06-20T20:18:49.995452 #9073]  INFO -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40] Started GET "/" for 127.0.0.1 at 2019-06-20 20:18:49 +0900
+I, [2019-06-20T20:18:50.020100 #9073]  INFO -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40] Processing by HomeController#top as HTML
+I, [2019-06-20T20:18:50.068963 #9073]  INFO -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]   Rendering home/top.html.erb within layouts/application
+D, [2019-06-20T20:18:50.130536 #9073] DEBUG -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]   [1m[36mUser Load (15.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+I, [2019-06-20T20:18:50.142944 #9073]  INFO -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]   Rendered home/top.html.erb within layouts/application (73.8ms)
+I, [2019-06-20T20:18:50.143543 #9073]  INFO -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40] Completed 500 Internal Server Error in 123ms (ActiveRecord: 15.7ms)
+F, [2019-06-20T20:18:50.145673 #9073] FATAL -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]   
+F, [2019-06-20T20:18:50.145875 #9073] FATAL -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40] ActionView::Template::Error (SQLite3::SQLException: no such table: users: SELECT "users".* FROM "users"):
+F, [2019-06-20T20:18:50.146171 #9073] FATAL -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]     1: <div class="top">
+[2f584c4d-49d5-4ad8-bd19-96fbdae58d40]     2:   <% @users.each do |user| %>
+[2f584c4d-49d5-4ad8-bd19-96fbdae58d40]     3:     <%= user.name %>
+[2f584c4d-49d5-4ad8-bd19-96fbdae58d40]     4:     <%= user.age %>
+[2f584c4d-49d5-4ad8-bd19-96fbdae58d40]     5:   <% end %>
+F, [2019-06-20T20:18:50.146230 #9073] FATAL -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40]   
+F, [2019-06-20T20:18:50.146276 #9073] FATAL -- : [2f584c4d-49d5-4ad8-bd19-96fbdae58d40] app/views/home/top.html.erb:2:in `_app_views_home_top_html_erb__3067074759004467118_70256566088680'
+I, [2019-06-20T20:18:50.296461 #9073]  INFO -- : [5870e8f0-30c7-4470-9075-e85d79f383cc] Started GET "/favicon.ico" for 127.0.0.1 at 2019-06-20 20:18:50 +0900
+F, [2019-06-20T20:18:50.297769 #9073] FATAL -- : [5870e8f0-30c7-4470-9075-e85d79f383cc]   
+F, [2019-06-20T20:18:50.297877 #9073] FATAL -- : [5870e8f0-30c7-4470-9075-e85d79f383cc] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+F, [2019-06-20T20:18:50.298052 #9073] FATAL -- : [5870e8f0-30c7-4470-9075-e85d79f383cc]   
+F, [2019-06-20T20:18:50.298132 #9073] FATAL -- : [5870e8f0-30c7-4470-9075-e85d79f383cc] actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+[5870e8f0-30c7-4470-9075-e85d79f383cc] puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+I, [2019-06-20T20:27:21.649535 #9073]  INFO -- : [5a39fa98-cdb8-4e47-8155-400436dc961d] Started GET "/" for 127.0.0.1 at 2019-06-20 20:27:21 +0900
+I, [2019-06-20T20:27:21.652736 #9073]  INFO -- : [5a39fa98-cdb8-4e47-8155-400436dc961d] Processing by HomeController#top as HTML
+I, [2019-06-20T20:27:21.656410 #9073]  INFO -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]   Rendering home/top.html.erb within layouts/application
+D, [2019-06-20T20:27:21.659034 #9073] DEBUG -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+I, [2019-06-20T20:27:21.662403 #9073]  INFO -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]   Rendered home/top.html.erb within layouts/application (4.6ms)
+I, [2019-06-20T20:27:21.662624 #9073]  INFO -- : [5a39fa98-cdb8-4e47-8155-400436dc961d] Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.6ms)
+F, [2019-06-20T20:27:21.673752 #9073] FATAL -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]   
+F, [2019-06-20T20:27:21.673914 #9073] FATAL -- : [5a39fa98-cdb8-4e47-8155-400436dc961d] ActionView::Template::Error (SQLite3::SQLException: no such table: users: SELECT "users".* FROM "users"):
+F, [2019-06-20T20:27:21.674098 #9073] FATAL -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]     1: <div class="top">
+[5a39fa98-cdb8-4e47-8155-400436dc961d]     2:   <% @users.each do |user| %>
+[5a39fa98-cdb8-4e47-8155-400436dc961d]     3:     <%= user.name %>
+[5a39fa98-cdb8-4e47-8155-400436dc961d]     4:     <%= user.age %>
+[5a39fa98-cdb8-4e47-8155-400436dc961d]     5:   <% end %>
+F, [2019-06-20T20:27:21.674149 #9073] FATAL -- : [5a39fa98-cdb8-4e47-8155-400436dc961d]   
+F, [2019-06-20T20:27:21.674272 #9073] FATAL -- : [5a39fa98-cdb8-4e47-8155-400436dc961d] app/views/home/top.html.erb:2:in `_app_views_home_top_html_erb__3067074759004467118_70256566088680'

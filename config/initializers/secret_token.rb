@@ -1,0 +1,1 @@
+CoffeeMe::Application.config.secret_key_base = 'fc529598c63cda9ce2ef45d063b97e674c0480e95d60719c02fa9d9523630d3ee170bca66418f461e0845c6adeff1f404f72cc9313ed5a98930b16f1b49c8f59'
