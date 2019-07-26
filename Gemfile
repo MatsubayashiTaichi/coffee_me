@@ -37,29 +37,30 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+#  gem 'byebug', platform: :mri
   gem 'sqlite3', '1.3.13'
 end
 
-group :development do
-  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'capistrano'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rails'
-  gem 'capistrano-rbenv'
-
-end
 group :production, :staging do
   gem 'sqlite3', '1.3.13'
   gem 'unicorn'
 end
 
 group :deployment do
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'web-console', '>= 3.3.0'
+
+
   gem 'capistrano'
   gem 'capistrano-ext' # 環境毎に設定を変更するためのgem
   gem 'capistrano_colors' # capistrano実行時に色をつけるためのgem
   gem 'capistrano_rsync_with_remote_cache' # deploy時にrsyncを使うためのgem
+
+#  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
