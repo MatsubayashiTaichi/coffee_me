@@ -3196,3 +3196,9 @@ I, [2019-06-18T20:04:11.103127 #24332]  INFO -- : Writing /var/www/coffee_me/rel
   INFO [43efb973] Running /usr/bin/env echo "Branch master (at 4168ec7145ddb24ec116f4a7488b2a4af7dbc198) deployed as release 20190618110345 by root" >> /var/www/coffee_me/revisions.log as hoge@118.27.23.224
  DEBUG [43efb973] Command: cd /var/www/coffee_me/releases && ( export RBENV_ROOT="/home/hoge/.rbenv" RBENV_VERSION="2.5.3" ; /usr/bin/env echo "Branch master (at 4168ec7145ddb24ec116f4a7488b2a4af7dbc198) deployed as release 20190618110345 by root" >> /var/www/coffee_me/revisions.log )
   INFO [1f4a8c0f] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-27 03:23:37 +0900 cap production deploy:db_create
+  INFO ---------------------------------------------------------------------------
+ DEBUG [99a30961] Running [ -d /home/hoge/.rbenv/versions/2.5.3 ] as hoge@118.27.23.224
+ DEBUG [99a30961] Command: [ -d /home/hoge/.rbenv/versions/2.5.3 ]
+ DEBUG [2bc01cb5] Finished in 0.722 seconds with exit status 0 (successful).

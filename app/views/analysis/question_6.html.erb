@@ -1,0 +1,14 @@
+
+  <%= form_tag("/create_6/#{@user.id}") do %>
+    <div class="question-6">
+      <div class="question-6-1">
+        <p>周りと兄妹がいるかという話になると</p>
+      </div>
+      <div class="question-6-2">
+        <button type="submit" value="1" name="check">独りっ子そう</button>
+        <button type="submit" value="2" name="check">上がいそう</button>
+        <button type="submit" value="3" name="check">下がいそう</button>
+        <button type="submit" value="4" name="check">特にバラバラ</button>
+      </div>
+    </div>
+  <% end %>

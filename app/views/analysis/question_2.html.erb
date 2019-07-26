@@ -4,8 +4,15 @@
     <p><%= @user.name %>さん、初めまして！</p>
   </div>
   <div class="question-2-2">
-    <p><%= @user.name %>さんは何才ですか？</p>
-    <input type="text" name="age" value="才" class="question-2-3">
-    <input type="submit" value="→" class="question-2-4">
+    <p><%= @user.name %>さんの年齢を教えて下さい</p>
+    <div class="question-2-3">
+      <input type="submit" value="10代" name="age"/>
+      <input type="submit" value="20代" name="age"/>
+      <input type="submit" value="30代" name="age"/>
+      <input type="submit" value="40代" name="age"/>
+      <input type="submit" value="50代以上" name="age"/>
+    </div>
   </div>
+
+
 <% end %>

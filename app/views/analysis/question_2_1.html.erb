@@ -1,0 +1,13 @@
+<%= form_tag("/create_2_1/#{@user.id}") do %>
+
+  <div class="question-2_1-1">
+    <p><%= @user.name %>さんは男性ですか？女性ですか？</p>
+    <div class="question-2_1-2">
+      <input type="submit" value="male" name="sex"/>
+      <input type="submit" value="female" name="sex"/>
+      <input type="submit" value="other"  name="sex"/>
+    </div>
+  </div>
+
+
+<% end %>

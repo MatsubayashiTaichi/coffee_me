@@ -237,10 +237,17 @@ header {
   margin-top: 150px;
   display:none;
   text-align: center;
+  width: 100%;
+  font-size: 30px;
 }
 .question-2-1 p, .question-2-2 p{
   font-size: 35px;
 }
+.question-2-3{
+  width:100%;
+
+}
+/*
 .question-2-3{
   margin-top: 30px;
   width: 450px;
@@ -250,11 +257,34 @@ header {
   font-size: 40px;
   font-weight: normal;
 }
+*/
+
+.question-2-3 input{
+  width: 15%;
+  height: auto;
+}
+
+//question2====================================================================
+//question2_1=================================================
+
+.question-2_1-1{
+  margin-top: 150px;
+  display:none;
+  text-align: center;
+}
+
+.question-2_1-2{
+  margin-top: 150px;
+}
+
+.question-2_1-1 p{
+  font-size: 35px;
+}
 
 
 
-//question2======================================================================
-//question3======================================================================
+
+//question2_1======================================================================/question3======================================================================
 .question-3-1,.question-3-2, .question-3-3{
   margin-top: 150px;
   display:none;
@@ -268,27 +298,14 @@ header {
   font-size: 35px;
 }
 
-.check{
-display: block;
+.question-3-4{
+  width:100%;
+  text-align: center;
 }
 
-#check1{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check2{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check3{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
+.question-3-4 button{
+  margin-left:2%;
+  margin-right:2%;
 }
 
 //question3======================================================================
@@ -306,27 +323,15 @@ display: block;
   font-size: 35px;
 }
 
-.check{
-display: block;
+
+.question-4-2{
+  width:100%;
+  text-align: center;
 }
 
-#check1{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check2{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check3{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
+.question-4-2 button{
+  margin-left:2%;
+  margin-right:2%;
 }
 
 //question4======================================================================
@@ -343,32 +348,41 @@ display: block;
   font-size: 35px;
 }
 
-.check{
-display: block;
+.question-5-2{
+  width:100%;
+  text-align: center;
 }
 
-#check1{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check2{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
-}
-#check3{
-  display:inline-block;
-  width: 20%;
-  height:20%;
-  text-align: center;
+.question-5-2 button{
+  margin-left:2%;
+  margin-right:2%;
 }
 
 
 //question5======================================================================
 //question6======================================================================
+
+.question-6{
+  display:none;
+  text-align: center;
+}
+.question-6-1{
+  margin-top: 150px;
+}
+
+.question-6-1 p{
+  font-size: 35px;
+}
+
+.question-6-2{
+  width:100%;
+  text-align: center;
+}
+
+.question-6-2 button{
+  margin-left:2%;
+  margin-right:2%;
+}
 
 
 

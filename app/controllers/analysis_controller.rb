@@ -1,9 +1,16 @@
 class AnalysisController < ApplicationController
+  def index
+  end
+
+
   def question
   end
   def question_1
   end
   def question_2
+    @user = User.find_by(id: params[:id])
+  end
+  def question_2_1
     @user = User.find_by(id: params[:id])
   end
   def question_3
@@ -32,6 +39,12 @@ class AnalysisController < ApplicationController
   def create_2
     @user = User.find_by(id: params[:id])
     @user.age = params[:age]
+    @user.save
+    redirect_to("/question_2_1/#{@user.id}")
+  end
+  def create_2_1
+    @user = User.find_by(id: params[:id])
+    @user.sex = params[:sex]
     @user.save
     redirect_to("/question_3/#{@user.id}")
   end

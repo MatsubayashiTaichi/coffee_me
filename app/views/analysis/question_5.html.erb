@@ -2,21 +2,13 @@
   <%= form_tag("/create_5/#{@user.id}") do %>
     <div class="question-5">
       <div class="question-5-1">
-        <p>バイトや仕事の研修期間中でもミスをすると割とヘコむ方だ</p>
+        <p>学校や職場などのワークスペースは</p>
       </div>
       <div class="question-5-2">
-        <div class="check">
-          <input type="hidden" name="check" value="1">
-          <input type="image" id="check2" src="/img_01.png"/>
-        </div>
-        <div class="check">
-          <input type="hidden" name="check" value="0">
-          <input type="image" id="check2" src="/img_02.png"/>
-        </div>
-        <div class="check">
-          <input type="hidden" name="check" value="-10">
-          <input type="image" id="check2" src="/img_03.png"/>
-        </div>
+        <button type="submit" value="1" name="check">常にきちんと整理されている</button>
+        <button type="submit" value="2" name="check">時々散らかってしまう自覚がある</button>
+        <button type="submit" value="3" name="check">まとめて片付けることが多い</button>
+        <button type="submit" value="4" name="check">いつもどこに何があるか分からなくなる</button>
       </div>
     </div>
   <% end %>
